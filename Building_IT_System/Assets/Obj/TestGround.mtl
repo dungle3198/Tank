@@ -1,0 +1,5 @@
+newmtl samsung_icon
+map_Kd samsung_icon.png
+Kd 1 1 1
+d 1
+
