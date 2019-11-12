@@ -5,22 +5,22 @@ using UnityEngine;
 public class Chainsaw : MonoBehaviour
 {
     [SerializeField]
+    Transform transformA;
+    [SerializeField]
+    Transform transformB;
     Vector3 pointA;
-    [SerializeField]
     Vector3 pointB;
-    [SerializeField]
-    float interval = 5;
-    [SerializeField]
-    float movingTime = 0;
     [SerializeField]
     bool leftandright = true; // left is true, right is fall 
     [SerializeField]
     float damage = 50;
 
-    float turnSpeed = 50f;
+    float turnSpeed = 365f;
     // Start is called before the first frame update
     void Start()
     {
+        pointA = transformA.position;
+        pointB = transformB.position;
         transform.position = pointA;
     }
 
@@ -30,22 +30,32 @@ public class Chainsaw : MonoBehaviour
        
         if (leftandright)
         {
-            transform.position = Vector3.Lerp(transform.position, pointA, 5 * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, pointA, Time.deltaTime);
             float distance = Vector3.Distance(transform.position, pointA);
-            if (distance < 0.125f)
+            transform.Rotate(Vector3.left, turnSpeed * Time.deltaTime);
+            if (distance < 1.5f)
             {
                 leftandright = false;
             }
         }
         else
         {
-            transform.position = Vector3.Lerp(transform.position, pointB, 5 * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, pointB, Time.deltaTime);
             float distance = Vector3.Distance(transform.position, pointB);
-            if (distance < 0.125f)
+            transform.Rotate(Vector3.right, turnSpeed * Time.deltaTime);
+            if (distance < 1.5f)
             {
                 leftandright = true;
             }
         }
-         transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
+         //transform.Rotate(Vector3.left, turnSpeed * Time.deltaTime);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.GetComponent<Player>())
+        {
+            Player player = other.GetComponent<Player>();
+            player.applyDamge(damage, Tank.Team.enemy);
+        }
     }
 }

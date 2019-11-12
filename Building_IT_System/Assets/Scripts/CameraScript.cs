@@ -40,14 +40,14 @@ public class CameraScript : MonoBehaviour
     {
         if (player)
         {
-            
+
             if (CamRotator)
             {
                 CamRotator.position = player.transform.position;
                 CamRotator.Rotate(player.getRotateVector());
             }
-            
-            
+
+
         }
     }
 }
