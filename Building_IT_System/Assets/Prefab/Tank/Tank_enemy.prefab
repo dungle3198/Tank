@@ -308,10 +308,6 @@ MonoBehaviour:
   gun: {fileID: 0}
   health: {fileID: 0}
   explosive_fx: {fileID: 1133401771}
-  tankSound: {fileID: 0}
-  soundclip:
-  - {fileID: 8300000, guid: 4fd8e46126678a54f9d725f7d8f2f5fb, type: 3}
-  - {fileID: 8300000, guid: 598390c67066db94e979331388d4b306, type: 3}
   player: {fileID: 0}
   distance: 0
   offSet: 3
@@ -370,7 +366,6 @@ MonoBehaviour:
   shootingSpeed: 20
   currentAmmo: 0
   maxAmmo: 5
-  damage: 10
   shootclip: {fileID: 8300000, guid: 809c57c446741a14c9c757bd299a5b6d, type: 3}
   sound: {fileID: 0}
 --- !u!82 &1614843131
@@ -476,6 +471,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1725225962}
     m_Modifications:
+    - target: {fileID: 100008, guid: 06736895ea0a4ff408d25e6684dce797, type: 3}
+      propertyPath: m_Name
+      value: WFX_ExplosiveSmokeGround Big
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 06736895ea0a4ff408d25e6684dce797, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 06736895ea0a4ff408d25e6684dce797, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -518,14 +521,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 06736895ea0a4ff408d25e6684dce797, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: 06736895ea0a4ff408d25e6684dce797, type: 3}
-      propertyPath: m_Name
-      value: WFX_ExplosiveSmokeGround Big
-      objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: 06736895ea0a4ff408d25e6684dce797, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

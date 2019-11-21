@@ -43,7 +43,10 @@ public class Enemy :AI
             {
                 chasePlayer();
             }
-            
+            else
+            {
+                death();
+            }
         }
         
     }
@@ -68,7 +71,6 @@ public class Enemy :AI
                 }
             }
         }
-
     }
     protected override void gunFunction()
     {

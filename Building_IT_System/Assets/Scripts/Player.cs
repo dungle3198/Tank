@@ -35,7 +35,6 @@ public class Player : Tank
         {
             float x = Input.GetAxis("Horizontal");
             float z = Input.GetAxis("Vertical");
-            
             float yvel = rB.velocity.y;
             float xvel = rB.velocity.x;
             Vector3 MoveVector = transform.forward*z*speed+transform.up*rB.velocity.y;
@@ -43,7 +42,6 @@ public class Player : Tank
             transform.Rotate(RotateVector);
             rB.velocity = MoveVector;
         }
-        
     }
     protected override void gunFunction()
     {
