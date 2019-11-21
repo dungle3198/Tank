@@ -85,4 +85,8 @@ public class Gun : MonoBehaviour
     {
         this.damage += amountDamage;
     }
+    public virtual void fastReload()
+    {
+        currentAmmo = maxAmmo;
+    }
 }
