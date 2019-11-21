@@ -26,9 +26,4 @@ public class Health : MonoBehaviour
     {
         return (currentHealth / maxHealth);
     }
-    public float GainFullHealth()
-    {
-        currentHealth = maxHealth;
-        return currentHealth;
-    }
 }
