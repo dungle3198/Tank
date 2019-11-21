@@ -45,7 +45,7 @@ public class Enemy :AI
             }
             else
             {
-                death();
+                
             }
         }
         
@@ -72,6 +72,7 @@ public class Enemy :AI
             }
         }
     }
+  
     protected override void gunFunction()
     {
         if(shootTime < Time.time)

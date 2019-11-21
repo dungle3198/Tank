@@ -16,6 +16,10 @@ public class Tank : MonoBehaviour
     protected Health health;
     [SerializeField]
     protected GameObject explosive_fx;
+    [SerializeField]
+    protected AudioSource tankSound;
+    [SerializeField]
+    protected List<AudioClip> soundclip;
     protected Rigidbody rB;
     // Start is called before the first frame update
     protected virtual void Start()
@@ -33,6 +37,11 @@ public class Tank : MonoBehaviour
         {
             health = GetComponent<Health>();
         }
+        if (!GetComponent<AudioSource>())
+        {
+            tankSound = gameObject.AddComponent<AudioSource>();
+            tankSound.playOnAwake = false;
+        }
     }
     public virtual void applyDamge(float damage,Team oppositeTeam)
     {
@@ -41,7 +50,12 @@ public class Tank : MonoBehaviour
             if(health)
             {
                 health.applyDamage(damage);
+                if(health.getCurrentHealth() <= 0)
+                {
+                    death();
+                }
             }
+            
         }
     }
     public virtual void commonDamage(float damage)
@@ -72,6 +86,13 @@ public class Tank : MonoBehaviour
                 if(explosive_fx)
                 {
                     explosive_fx.SetActive(true);
+                }
+                if (tankSound)
+                {
+                    if (soundclip[2])
+                    {
+                        tankSound.PlayOneShot(soundclip[2]);
+                    }
                 }
                 Destroy(gameObject, 1f);
             }

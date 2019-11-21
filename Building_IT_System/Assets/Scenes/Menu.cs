@@ -10,7 +10,7 @@ public class Menu : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("Demo", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Level 1", LoadSceneMode.Additive);
         if(menuUI)
         {
             menuUI.SetActive(false);

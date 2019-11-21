@@ -106,9 +106,9 @@ public class Player : Tank
                 }
                 if (tankSound)
                 {
-                    if (soundclip[1])
+                    if (soundclip[2])
                     {
-                        tankSound.PlayOneShot(soundclip[1]);
+                        tankSound.PlayOneShot(soundclip[2]);
                     }
                 }
                 if (LS)
@@ -116,6 +116,7 @@ public class Player : Tank
                     print("hello");
                     LS.Result(true);
                 }
+                this.GetComponent<Player>().enabled = false;
             }
         }
     }
