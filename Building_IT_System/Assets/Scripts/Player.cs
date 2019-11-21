@@ -11,7 +11,8 @@ public class Player : Tank
     private Vector3 RotateVector;
     [SerializeField]
     private HUD hud;
-
+    [SerializeField]
+    private LevelSystem LS;
 
     // Start is called before the first frame update
     protected override void Start()
@@ -20,6 +21,10 @@ public class Player : Tank
         if(FindObjectOfType<HUD>())
         {
             hud = FindObjectOfType<HUD>();
+        }
+        if(FindObjectOfType<LevelSystem>())
+        {
+            LS = FindObjectOfType<LevelSystem>();
         }
     }
 
@@ -72,6 +77,7 @@ public class Player : Tank
                 {
                     hud.healthChange(health.getHealthPercentage());
                 }
+                death();
             }
         }
 
@@ -86,6 +92,50 @@ public class Player : Tank
                 hud.healthChange(health.getHealthPercentage());
             }
             print("fire damage");
+        }
+    }
+    public override void death()
+    {
+        if (health)
+        {
+            if (health.getCurrentHealth() <= 0)
+            {
+                if (explosive_fx)
+                {
+                    explosive_fx.SetActive(true);
+                }
+                if (tankSound)
+                {
+                    if (soundclip[1])
+                    {
+                        tankSound.PlayOneShot(soundclip[1]);
+                    }
+                }
+                if (LS)
+                {
+                    print("hello");
+                    LS.Result(true);
+                }
+            }
+        }
+    }
+    public void Respawn()
+    {
+        if(health)
+        {
+            health.GainFullHealth();
+            if (hud)
+            {
+                hud.healthChange(health.getHealthPercentage());
+            }
+        }
+        if (gun)
+        {
+            gun.fastReload();
+            if (hud)
+            {
+                hud.ammoChange(gun.getAmmoPercentage());
+            }
         }
     }
 }
