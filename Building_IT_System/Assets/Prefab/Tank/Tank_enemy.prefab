@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 100
+  maxHealth: 30
 --- !u!65 &1725225958
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -308,6 +308,11 @@ MonoBehaviour:
   gun: {fileID: 0}
   health: {fileID: 0}
   explosive_fx: {fileID: 1133401771}
+  tankSound: {fileID: 0}
+  soundclip:
+  - {fileID: 8300000, guid: 809c57c446741a14c9c757bd299a5b6d, type: 3}
+  - {fileID: 8300000, guid: 809c57c446741a14c9c757bd299a5b6d, type: 3}
+  - {fileID: 8300000, guid: 598390c67066db94e979331388d4b306, type: 3}
   player: {fileID: 0}
   distance: 0
   offSet: 3
@@ -366,6 +371,7 @@ MonoBehaviour:
   shootingSpeed: 20
   currentAmmo: 0
   maxAmmo: 5
+  damage: 10
   shootclip: {fileID: 8300000, guid: 809c57c446741a14c9c757bd299a5b6d, type: 3}
   sound: {fileID: 0}
 --- !u!82 &1614843131
