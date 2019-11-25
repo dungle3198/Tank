@@ -14,6 +14,8 @@ public class Player : Tank
     [SerializeField]
     private LevelSystem LS;
 
+    [SerializeField]
+    private Transform Upperbody;
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -26,6 +28,8 @@ public class Player : Tank
         {
             LS = FindObjectOfType<LevelSystem>();
         }
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -46,6 +50,11 @@ public class Player : Tank
             this.RotateVector = new Vector3(0, x * rotateSpeed, 0);
             transform.Rotate(RotateVector);
             rB.velocity = MoveVector;
+        }
+        if(Upperbody)
+        {
+            float x = Input.GetAxis("Mouse X");
+            Upperbody.Rotate(0, 0,x);
         }
     }
     protected override void gunFunction()

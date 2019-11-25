@@ -6,20 +6,20 @@ public class Gun : MonoBehaviour
 {
     public Tank.Team currentTeam;
     [SerializeField]
-    private GameObject bulletPrefab;
+    protected GameObject bulletPrefab;
     [SerializeField]
-    private float shootingSpeed;
+    protected float shootingSpeed;
     [SerializeField]
-    private int currentAmmo;
+    protected int currentAmmo;
     [SerializeField]
-    private int maxAmmo = 10;
+    protected int maxAmmo = 10;
     [SerializeField]
-    private float damage = 10;
+    protected float damage = 10;
 
     [SerializeField]
-    private AudioClip shootclip;
+    protected AudioClip shootclip;
     [SerializeField]
-    private AudioSource sound;
+    protected AudioSource sound;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,11 +28,6 @@ public class Gun : MonoBehaviour
         {
             sound = GetComponent<AudioSource>();
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         
     }
     public float getAmmoPercentage()
@@ -40,7 +35,7 @@ public class Gun : MonoBehaviour
         float percentage = (float)currentAmmo / (float)maxAmmo;
         return percentage;
     }
-    public void Shoot()
+    public virtual void Shoot()
     {
         if (currentAmmo >0)
         {
@@ -72,7 +67,7 @@ public class Gun : MonoBehaviour
     {
         this.currentTeam = team;
     }
-    IEnumerator Reload()
+    public virtual IEnumerator Reload()
     {
         yield return new WaitForSeconds(3);
         currentAmmo = maxAmmo;

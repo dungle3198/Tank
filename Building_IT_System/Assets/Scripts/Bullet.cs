@@ -5,8 +5,8 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField]
-    private float damage;
-    private Rigidbody rB;
+    protected float damage;
+    protected Rigidbody rB;
     public Tank.Team currentTeam;
     public GameObject fX;
     public GameObject mesh;
