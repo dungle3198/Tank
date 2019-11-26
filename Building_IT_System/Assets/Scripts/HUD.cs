@@ -4,23 +4,23 @@ using UnityEngine;
 using UnityEngine.UI;
 public class HUD : MonoBehaviour
 {
-    [SerializeField]private Slider healthBar;
-
-
-    [SerializeField]private Slider ammoBar;
+    [SerializeField] private Text healthText;
+    [SerializeField] private Text ammoText;
 
     public void healthChange(float health_value)
     {
-        if (healthBar != null)
+     
+        if(healthText)
         {
-            healthBar.value = health_value;
+            healthText.text = health_value * 100 + " / 100" ;
         }
     }
     public void ammoChange(float ammo_value)
     {
-        if (healthBar != null)
+        
+        if(ammoText)
         {
-            ammoBar.value = ammo_value;
+            ammoText.text = ammo_value + "";
         }
     }
 }

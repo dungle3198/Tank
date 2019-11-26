@@ -23,6 +23,8 @@ public class Player : Tank
         if(FindObjectOfType<HUD>())
         {
             hud = FindObjectOfType<HUD>();
+            hud.healthChange(health.getHealthPercentage());
+            hud.ammoChange(gun.getcurrentAmmo());
         }
         if(FindObjectOfType<LevelSystem>())
         {
@@ -66,7 +68,7 @@ public class Player : Tank
                 gun.Shoot();
                 if (hud)
                 {
-                    hud.ammoChange(gun.getAmmoPercentage());
+                    hud.ammoChange(gun.getcurrentAmmo());
                 }
             }
         }
@@ -144,7 +146,7 @@ public class Player : Tank
             gun.fastReload();
             if (hud)
             {
-                hud.ammoChange(gun.getAmmoPercentage());
+                hud.ammoChange(gun.getcurrentAmmo());
             }
         }
     }

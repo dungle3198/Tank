@@ -16,6 +16,7 @@ public class Gun : MonoBehaviour
     [SerializeField]
     protected float damage = 10;
 
+
     [SerializeField]
     protected AudioClip shootclip;
     [SerializeField]
@@ -83,5 +84,9 @@ public class Gun : MonoBehaviour
     public virtual void fastReload()
     {
         currentAmmo = maxAmmo;
+    }
+    public int getcurrentAmmo()
+    {
+        return currentAmmo;
     }
 }
