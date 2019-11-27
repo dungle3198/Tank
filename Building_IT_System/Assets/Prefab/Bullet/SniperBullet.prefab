@@ -66,6 +66,8 @@ MonoBehaviour:
   currentTeam: 0
   fX: {fileID: 1557180842046014684}
   mesh: {fileID: 7881488378297545033}
+  sound: {fileID: 0}
+  explosive_clip: {fileID: 8300000, guid: 6c7761263915e5443be74b84ba80862a, type: 3}
 --- !u!65 &7223546943740343331
 BoxCollider:
   m_ObjectHideFlags: 0

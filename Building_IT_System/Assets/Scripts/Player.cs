@@ -52,6 +52,32 @@ public class Player : Tank
             this.RotateVector = new Vector3(0, x * rotateSpeed, 0);
             transform.Rotate(RotateVector);
             rB.velocity = MoveVector;
+
+            if(rB.velocity.x != 0 || rB.velocity.z != 0 )
+            {
+                if(tankSound)
+                {
+                    if(!tankSound.isPlaying)
+                    {
+                        tankSound.clip = soundclip[0];
+                        tankSound.loop = true;
+                        tankSound.volume = 0.25f;
+                        tankSound.Play();
+       
+                    }
+                }
+            }
+            else
+            {
+                if (tankSound)
+                {
+                    if (tankSound.isPlaying)
+                    {
+                        tankSound.Stop();
+                        tankSound.loop = false;
+                    }
+                }
+            }
         }
         if(Upperbody)
         {

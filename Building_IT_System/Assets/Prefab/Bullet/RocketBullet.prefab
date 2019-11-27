@@ -13,19 +13,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.8865027, y: 10.292525, z: 2.8865035}
   m_Center: {x: -0.00000023841858, y: 0.76854295, z: 0.00000017881398}
---- !u!135 &7979440062731322511
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7984616929206999308}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 15
-  m_Center: {x: -0.00000023841858, y: 0.76854295, z: 0.00000017881398}
 --- !u!1 &9056464991140652090
 GameObject:
   m_ObjectHideFlags: 0
@@ -37,6 +24,7 @@ GameObject:
   - component: {fileID: 3030975111899846465}
   - component: {fileID: 2196181652747705951}
   - component: {fileID: -3972664989828828869}
+  - component: {fileID: 6267190635006475883}
   m_Layer: 0
   m_Name: RocketBullet
   m_TagString: Untagged
@@ -92,6 +80,21 @@ MonoBehaviour:
   currentTeam: 0
   fX: {fileID: 3296634477244062204}
   mesh: {fileID: 7984616929206999308}
+  sound: {fileID: 0}
+  explosive_clip: {fileID: 8300000, guid: 0a2531779fd6f3d4fbe8d28befb7f3e6, type: 3}
+--- !u!135 &6267190635006475883
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9056464991140652090}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &3296634477244161876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -151,14 +154,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 19800002, guid: 1dbc518224e49f34095aab42fe05751a, type: 3}
-      propertyPath: InitialModule.startSizeY.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19800002, guid: 1dbc518224e49f34095aab42fe05751a, type: 3}
-      propertyPath: InitialModule.startSizeZ.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 19800004, guid: 1dbc518224e49f34095aab42fe05751a, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
       value: 3
@@ -180,6 +175,14 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 19800006, guid: 1dbc518224e49f34095aab42fe05751a, type: 3}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: 1dbc518224e49f34095aab42fe05751a, type: 3}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: 1dbc518224e49f34095aab42fe05751a, type: 3}
       propertyPath: InitialModule.startSizeZ.minMaxState
       value: 3
       objectReference: {fileID: 0}

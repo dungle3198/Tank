@@ -61,6 +61,31 @@ public class Enemy :AI
                 {
                     Vector3 desPos = new Vector3(player.transform.position.x + offSet, player.transform.position.y + offSet, player.transform.position.z + offSet);
                     agent.SetDestination(desPos);
+                    if (agent.velocity.x != 0 || agent.velocity.z != 0)
+                    {
+                        if (tankSound)
+                        {
+                            if (!tankSound.isPlaying)
+                            {
+                                tankSound.clip = soundclip[0];
+                                tankSound.loop = true;
+                                tankSound.volume = 0.5f;
+                                tankSound.Play();
+
+                            }
+                        }
+                    }
+                    else
+                    {
+                        if (tankSound)
+                        {
+                            if (tankSound.isPlaying)
+                            {
+                                tankSound.Stop();
+                                tankSound.loop = false;
+                            }
+                        }
+                    }
                 }
                 else
                 {

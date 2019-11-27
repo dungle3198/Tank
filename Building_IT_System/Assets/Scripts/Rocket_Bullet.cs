@@ -11,11 +11,15 @@ public class Rocket_Bullet : Bullet {
             rB = GetComponent<Rigidbody>();
             
         }
-        if(GetComponent<SphereCollider>())
+        if(GetComponentInChildren<SphereCollider>())
         {
             explosiveCollision = GetComponent<SphereCollider>();
         }
-
+        if (!GetComponent<AudioSource>())
+        {
+            sound = gameObject.AddComponent<AudioSource>();
+            sound.playOnAwake = false;
+        }
 
         Destroy(this.gameObject, 5);
     }
@@ -24,7 +28,7 @@ public class Rocket_Bullet : Bullet {
     {
         if(explosiveCollision)
         {
-            explosiveCollision.enabled = false;
+            explosiveCollision.enabled = true;
         }
        
         if (other.gameObject.GetComponent<Tank>())
@@ -36,19 +40,7 @@ public class Rocket_Bullet : Bullet {
             Box box = other.gameObject.GetComponent<Box>();
             box.exploded();
         }
-        if (fX)
-        {
-            fX.SetActive(true);
-        }
-        if (rB)
-        {
-            rB.velocity = Vector3.zero;
-        }
-        if (mesh)
-        {
-            mesh.SetActive(false);
-        }
-        Destroy(this.gameObject, 2f);
+        explode();
     }
 
 }

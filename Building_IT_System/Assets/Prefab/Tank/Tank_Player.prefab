@@ -378,7 +378,8 @@ MonoBehaviour:
   health: {fileID: 0}
   explosive_fx: {fileID: 0}
   tankSound: {fileID: 0}
-  soundclip: []
+  soundclip:
+  - {fileID: 8300000, guid: 98da624c5159744dab3ff081607af703, type: 3}
   rotateSpeed: 1
   RotateVector: {x: 0, y: 0, z: 0}
   hud: {fileID: 0}
