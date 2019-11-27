@@ -94,7 +94,7 @@ public class Tank : MonoBehaviour
                         tankSound.PlayOneShot(soundclip[2]);
                     }
                 }
-                Destroy(gameObject, 1f);
+                Destroy(gameObject, soundclip[2].length);
             }
         }
     }

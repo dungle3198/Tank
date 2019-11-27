@@ -33,7 +33,9 @@ public class Enemy :AI
         if(GetComponent<NavMeshAgent>())
         {
             agent = GetComponent<NavMeshAgent>();
+            agent.speed = speed;
         }
+
     }
     protected virtual void Update()
     {
@@ -50,7 +52,7 @@ public class Enemy :AI
         }
         
     }
-    protected void chasePlayer()
+    protected virtual void chasePlayer()
     {
         if (player)
         {
@@ -97,7 +99,6 @@ public class Enemy :AI
             }
         }
     }
-  
     protected override void gunFunction()
     {
         if(shootTime < Time.time)

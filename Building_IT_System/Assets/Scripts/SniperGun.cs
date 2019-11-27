@@ -47,7 +47,7 @@ public class SniperGun : Gun
             }
             if (bulletPrefab)
             {
-                var bullet = (GameObject)Instantiate(bulletPrefab, hitScope, transform.rotation);
+                var bullet = (GameObject)Instantiate(bulletPrefab, transform.position, transform.rotation);
                 if (bullet.GetComponent<Rigidbody>())
                 {
                     bullet.GetComponent<Rigidbody>().velocity = transform.forward * shootingSpeed;
@@ -68,8 +68,8 @@ public class SniperGun : Gun
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, layerMask))
         {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
-            Debug.Log("Did Hit");
+            //Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
+            //Debug.Log("Did Hit");
             hitScope = hit.point;
             return true;
      
