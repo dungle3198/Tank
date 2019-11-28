@@ -14,7 +14,7 @@ public class Chainsaw : MonoBehaviour
     bool leftandright = true; // left is true, right is fall 
     [SerializeField]
     float damage = 50;
-
+    [SerializeField]
     float turnSpeed = 365f;
     // Start is called before the first frame update
     void Start()
