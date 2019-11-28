@@ -63,7 +63,8 @@ public class LevelSystem : MonoBehaviour
     }
     public void Result(bool on)
     {
-       if(on)
+        Cursor.lockState = CursorLockMode.None;
+        if (on)
         {
             if (ResultBoard)
             {

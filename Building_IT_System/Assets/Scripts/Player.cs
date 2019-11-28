@@ -30,7 +30,7 @@ public class Player : Tank
         {
             LS = FindObjectOfType<LevelSystem>();
         }
-        Cursor.visible = false;
+        
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -61,6 +61,7 @@ public class Player : Tank
                     {
                         tankSound.clip = soundclip[0];
                         tankSound.loop = true;
+                        tankSound.volume = 0.25f;
                         tankSound.volume = 0.25f;
                         tankSound.Play();
        
@@ -143,9 +144,9 @@ public class Player : Tank
                 }
                 if (tankSound)
                 {
-                    if (soundclip[2])
+                    if (soundclip[1])
                     {
-                        tankSound.PlayOneShot(soundclip[2]);
+                        tankSound.PlayOneShot(soundclip[1]);
                     }
                 }
                 if (LS)
@@ -175,5 +176,10 @@ public class Player : Tank
                 hud.ammoChange(gun.getcurrentAmmo());
             }
         }
+        this.GetComponent<Player>().enabled = true;
+    }
+    public Rigidbody GetRigidbody()
+    {
+        return rB;
     }
 }

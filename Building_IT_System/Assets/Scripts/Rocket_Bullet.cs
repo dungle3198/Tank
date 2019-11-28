@@ -23,24 +23,30 @@ public class Rocket_Bullet : Bullet {
 
         Destroy(this.gameObject, 5);
     }
-    
+    private void Update()
+    {
+        transform.Rotate(1, 0, 0);
+    }
     private void OnCollisionEnter(Collision other)
     {
-        if(explosiveCollision)
+        if(!other.gameObject.GetComponent<Bullet>())
         {
-            explosiveCollision.enabled = true;
+            if (explosiveCollision)
+            {
+                explosiveCollision.enabled = true;
+            }
+
+            if (other.gameObject.GetComponent<Tank>())
+            {
+                Tank tank = other.gameObject.GetComponent<Tank>();
+            }
+            if (other.gameObject.GetComponent<Box>())
+            {
+                Box box = other.gameObject.GetComponent<Box>();
+                box.exploded();
+            }
+            explode();
         }
-       
-        if (other.gameObject.GetComponent<Tank>())
-        {
-            Tank tank = other.gameObject.GetComponent<Tank>();
-        }
-        if (other.gameObject.GetComponent<Box>())
-        {
-            Box box = other.gameObject.GetComponent<Box>();
-            box.exploded();
-        }
-        explode();
     }
 
 }

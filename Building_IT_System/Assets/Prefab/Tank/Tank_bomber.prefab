@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentTeam: 1
-  speed: 10
+  speed: 20
   gun: {fileID: 0}
   health: {fileID: 0}
   explosive_fx: {fileID: 8437299550422663983}
