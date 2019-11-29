@@ -33,17 +33,20 @@ public class Bullet : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.GetComponent<Tank>())
+        if(other.isTrigger == false)
         {
-            Tank tank = other.GetComponent<Tank>();
-            tank.applyDamge(damage, this.currentTeam);
+            if (other.GetComponent<Tank>())
+            {
+                Tank tank = other.GetComponent<Tank>();
+                tank.applyDamge(damage, this.currentTeam);
+            }
+            if (other.GetComponent<Box>())
+            {
+                Box box = other.GetComponent<Box>();
+                box.exploded();
+            }
+            explode();
         }
-        if (other.GetComponent<Box>())
-        {
-            Box box = other.GetComponent<Box>();
-            box.exploded();
-        }
-        explode();
         
     }
     public void explode()
