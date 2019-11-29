@@ -17,10 +17,17 @@ public class HUD : MonoBehaviour
     }
     public void ammoChange(float ammo_value)
     {
-        
-        if(ammoText)
+
+        if (ammoText)
         {
-            ammoText.text = ammo_value + "";
+            if (ammo_value == 0)
+            {
+                ammoText.text = "Reloading";
+            }
+            else
+            {
+                ammoText.text = ammo_value + "";
+            }
         }
     }
 }
