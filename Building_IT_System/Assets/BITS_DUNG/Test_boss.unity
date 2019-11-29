@@ -41424,8 +41424,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4469457933375394364, guid: 79e21c7ec1dd27845a2ce6fd496ef5bf,
         type: 3}
-      propertyPath: speed
-      value: 35
+      propertyPath: offSet
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316225019506827344, guid: 79e21c7ec1dd27845a2ce6fd496ef5bf,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316225019506827344, guid: 79e21c7ec1dd27845a2ce6fd496ef5bf,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316225019506827344, guid: 79e21c7ec1dd27845a2ce6fd496ef5bf,
+        type: 3}
+      propertyPath: m_AutoBraking
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585892894284454131, guid: 79e21c7ec1dd27845a2ce6fd496ef5bf,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000015258789
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79e21c7ec1dd27845a2ce6fd496ef5bf, type: 3}
