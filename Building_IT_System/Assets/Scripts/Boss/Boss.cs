@@ -101,7 +101,7 @@ public class Boss : Enemy
             agent.isStopped = true;
         }
         wait_time += Time.deltaTime;
-        if (wait_time > 3)
+        if (wait_time > 1)
         {
             wait_time = 0;
             firststage_status = first_substage.Fire;
@@ -111,12 +111,23 @@ public class Boss : Enemy
     {
         wait_time += Time.deltaTime;
         bossgun.Shoot();
-        transform.Rotate(0, 2, 0);
+        transform.Rotate(0, 5, 0);
+        if (tankSound)
+        {
+            if (!tankSound.isPlaying)
+            {
+                tankSound.clip = soundclip[1];
+                tankSound.loop = false;
+                tankSound.volume = 0.5f;
+                tankSound.Play();
+
+            }
+        }
         if (anime)
         {
             anime.SetInteger("rotate", 1);
         }
-        if (wait_time > 5)
+        if (wait_time > 3)
         {
             if (anime)
             {
@@ -135,6 +146,14 @@ public class Boss : Enemy
             transform.rotation = Quaternion.LookRotation(directiontoFace);
         }
         firststage_status = first_substage.Move;
+    }
+    public override void death()
+    {
+        base.death();
+        if (anime)
+        {
+            anime.SetBool("death", true);
+        }
     }
 }
 
