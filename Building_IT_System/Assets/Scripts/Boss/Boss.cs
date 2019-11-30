@@ -5,23 +5,34 @@ using System;
 public class Boss : Enemy
 {
     enum stage { _1stage, _2stage, _3stage };
-    enum first_substage { Move, Stop, Fire, Rotate }
+    enum substage { Move, Stop, Fire, Rotate,shootAWP,suprisedAttack }
     [SerializeField]
-    first_substage firststage_status;
+    substage stage_status;
     [SerializeField]
     float wait_time;
     [SerializeField]
     FireGun bossgun;
     [SerializeField]
     Animator anime;
-    IDictionary<first_substage, Action> first_stage_actions = new Dictionary<first_substage, Action>();
+    IDictionary<substage, Action> first_stage_actions = new Dictionary<substage, Action>();
+    IDictionary<substage, Action> second_stage_actions = new Dictionary<substage, Action>();
     protected override void Start()
     {
         base.Start();
-        first_stage_actions.Add(first_substage.Move, MoveToPlayer);
-        first_stage_actions.Add(first_substage.Stop, Stop);
-        first_stage_actions.Add(first_substage.Fire, Fire);
-        first_stage_actions.Add(first_substage.Rotate, LookToPlayer);
+
+        //first phase
+        first_stage_actions.Add(substage.Move, MoveToPlayer);
+        first_stage_actions.Add(substage.Stop, Stop);
+        first_stage_actions.Add(substage.Fire, Fire);
+        first_stage_actions.Add(substage.Rotate, LookToPlayer);
+
+        //second phase
+        second_stage_actions.Add(substage.Move, MoveToPlayer);
+        second_stage_actions.Add(substage.Stop, Stop);
+        second_stage_actions.Add(substage.Fire, Fire);
+        second_stage_actions.Add(substage.Rotate, LookToPlayer);
+        second_stage_actions.Add(substage.shootAWP, LookToPlayer);
+        second_stage_actions.Add(substage.suprisedAttack, surprisedAttack);
         if (GetComponentInChildren<FireGun>())
         {
             bossgun = GetComponentInChildren<FireGun>();
@@ -35,13 +46,13 @@ public class Boss : Enemy
     {
         if (health)
         {
-            if (health.getCurrentHealth() > 0)
+            if (health.getHealthPercentage() > 75)
             {
-                first_stage_actions[firststage_status]();
+                first_stage_actions[stage_status]();
             }
-            else
+            else if(health.getHealthPercentage() < 75 && health.getHealthPercentage() > 25)
             {
-
+                second_stage_actions[stage_status]();
             }
         }
 
@@ -90,7 +101,7 @@ public class Boss : Enemy
                 {
                     anime.SetFloat("speed", 0);
                 }
-                firststage_status = first_substage.Stop;
+               stage_status = substage.Stop;
             }
         }
     }
@@ -104,7 +115,7 @@ public class Boss : Enemy
         if (wait_time > 1)
         {
             wait_time = 0;
-            firststage_status = first_substage.Fire;
+            stage_status = substage.Fire;
         }
     }
     protected void Fire()
@@ -135,7 +146,7 @@ public class Boss : Enemy
             }
             bossgun.stopShooting();
             wait_time = 0;
-            firststage_status = first_substage.Rotate;
+            stage_status = substage.Rotate;
         }
     }
     protected void LookToPlayer()
@@ -145,7 +156,28 @@ public class Boss : Enemy
             Vector3 directiontoFace = new Vector3(player.transform.position.x - transform.position.x, 0, player.transform.position.z - transform.position.z);
             transform.rotation = Quaternion.LookRotation(directiontoFace);
         }
-        firststage_status = first_substage.Move;
+        stage_status = substage.Move;
+    }
+    protected void shootAWP()
+    {
+        if (player)
+        {
+            Vector3 directiontoFace = new Vector3(player.transform.position.x - transform.position.x, 0, player.transform.position.z - transform.position.z);
+            transform.rotation = Quaternion.LookRotation(directiontoFace);
+        }
+        gunFunction();
+        if(wait_time > 3)
+        {
+          stage_status = substage.suprisedAttack;
+        }
+    }
+    protected void surprisedAttack()
+    {
+        rB.velocity = transform.forward * 40;
+        if (wait_time > 2)
+        {
+            stage_status = substage.Rotate;
+        }
     }
     public override void death()
     {
