@@ -13,6 +13,8 @@ public class Boss : Enemy
     [SerializeField]
     FireGun bossgun;
     [SerializeField]
+    GameObject pushDMG;
+    [SerializeField]
     Animator anime;
     IDictionary<substage, Action> first_stage_actions = new Dictionary<substage, Action>();
     IDictionary<substage, Action> second_stage_actions = new Dictionary<substage, Action>();
@@ -31,7 +33,7 @@ public class Boss : Enemy
         second_stage_actions.Add(substage.Stop, Stop);
         second_stage_actions.Add(substage.Fire, Fire);
         second_stage_actions.Add(substage.Rotate, LookToPlayer);
-        second_stage_actions.Add(substage.shootAWP, LookToPlayer);
+        second_stage_actions.Add(substage.shootAWP, shootAWP);
         second_stage_actions.Add(substage.suprisedAttack, surprisedAttack);
         if (GetComponentInChildren<FireGun>())
         {
@@ -46,11 +48,11 @@ public class Boss : Enemy
     {
         if (health)
         {
-            if (health.getHealthPercentage() > 75)
+            if (health.getHealthPercentage()*100 > 75)
             {
                 first_stage_actions[stage_status]();
             }
-            else if(health.getHealthPercentage() < 75 && health.getHealthPercentage() > 25)
+            else if(health.getHealthPercentage() * 100 < 75 && health.getHealthPercentage() * 100 > 25)
             {
                 second_stage_actions[stage_status]();
             }
@@ -156,10 +158,22 @@ public class Boss : Enemy
             Vector3 directiontoFace = new Vector3(player.transform.position.x - transform.position.x, 0, player.transform.position.z - transform.position.z);
             transform.rotation = Quaternion.LookRotation(directiontoFace);
         }
-        stage_status = substage.Move;
+        
+        if (health)
+        {
+            if (health.getHealthPercentage() * 100 > 75)
+            {
+                stage_status = substage.Move;
+            }
+            else if (health.getHealthPercentage() * 100 < 75 && health.getHealthPercentage() * 100 > 25)
+            {
+                stage_status = substage.shootAWP;
+            }
+        }
     }
     protected void shootAWP()
     {
+        wait_time += Time.deltaTime;
         if (player)
         {
             Vector3 directiontoFace = new Vector3(player.transform.position.x - transform.position.x, 0, player.transform.position.z - transform.position.z);
@@ -168,15 +182,28 @@ public class Boss : Enemy
         gunFunction();
         if(wait_time > 3)
         {
-          stage_status = substage.suprisedAttack;
+            
+            stage_status = substage.suprisedAttack;
+            wait_time = 0;
         }
     }
     protected void surprisedAttack()
     {
+        wait_time += Time.deltaTime;
         rB.velocity = transform.forward * 40;
+        if(pushDMG)
+        {
+            pushDMG.SetActive(true);
+        }
         if (wait_time > 2)
         {
-            stage_status = substage.Rotate;
+            if (pushDMG)
+            {
+                pushDMG.SetActive(false);
+            }
+            
+            stage_status = substage.Move;
+            wait_time = 0;
         }
     }
     public override void death()

@@ -15,6 +15,10 @@ public class Player : Tank
     private LevelSystem LS;
 
     [SerializeField]
+    List<Gun> guns;
+    [SerializeField]
+    int currentGunIndex;
+    [SerializeField]
     private Transform Upperbody;
     // Start is called before the first frame update
     protected override void Start()
@@ -39,6 +43,7 @@ public class Player : Tank
     {
         movement();
         gunFunction();
+        switchGun();
     }
     void movement()
     {
@@ -82,8 +87,8 @@ public class Player : Tank
         }
         if(Upperbody)
         {
-            float x = Input.GetAxis("Mouse X");
-            Upperbody.Rotate(0, 0,x);
+            //float x = Input.GetAxis("Mouse X");
+            //Upperbody.Rotate(0, 0,x);
         }
     }
     protected override void gunFunction()
@@ -129,6 +134,7 @@ public class Player : Tank
             {
                 hud.healthChange(health.getHealthPercentage());
             }
+            death();
             print("fire damage");
         }
     }
@@ -181,5 +187,35 @@ public class Player : Tank
     public Rigidbody GetRigidbody()
     {
         return rB;
+    }
+    public void switchGun()
+    {
+        if(guns.Count > 0)
+        {
+            
+            if (Input.GetAxis("Mouse ScrollWheel") > 0)
+            {
+                gun.gameObject.SetActive(false);
+                currentGunIndex++;
+                if(currentGunIndex > guns.Count - 1)
+                {
+                    currentGunIndex = 0;
+                }
+                gun = guns[currentGunIndex];
+                gun.gameObject.SetActive(true);
+            }
+            else if (Input.GetAxis("Mouse ScrollWheel") < 0)
+            {
+                gun.gameObject.SetActive(false);
+                currentGunIndex--;
+                if (currentGunIndex < 0)
+                {
+                    currentGunIndex = guns.Count - 1;
+                }
+                gun = guns[currentGunIndex];
+                gun.gameObject.SetActive(true);
+            }
+            
+        }
     }
 }

@@ -1,21 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
     [SerializeField]
     GameObject menuUI;
-
-    public void PlayGame()
+    [SerializeField]
+    GameSystem GS;
+    public Text LevelText; 
+    private void Update()
     {
-        SceneManager.LoadScene("Level 1", LoadSceneMode.Additive);
-        if(menuUI)
+        if(GS)
         {
-            menuUI.SetActive(false);
+            LevelText.text =(GS.currentLevelIndex + 1).ToString();
         }
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Demo"));
     }
     public void QuitGame()
     {

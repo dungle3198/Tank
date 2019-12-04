@@ -44,7 +44,11 @@ public class CameraScript : MonoBehaviour
             if (CamRotator)
             {
                 CamRotator.position = player.transform.position;
-                CamRotator.Rotate(player.getRotateVector());
+                if (Time.timeScale != 0)
+                {
+                    CamRotator.transform.Rotate(0, Input.GetAxis("Mouse X"), 0);
+                    //transform.Rotate(player.getRotateVector());
+                }
             }
 
 

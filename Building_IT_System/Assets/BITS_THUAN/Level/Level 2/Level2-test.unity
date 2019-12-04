@@ -936,6 +936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 241.16768
@@ -966,7 +970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1754,6 +1758,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -2.3
       objectReference: {fileID: 0}
+    - target: {fileID: 317268040016094343, guid: 21caaac6ca592ae40a33bb94ebbbde24,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 317268040016094343, guid: 21caaac6ca592ae40a33bb94ebbbde24,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 317268039363971042, guid: 21caaac6ca592ae40a33bb94ebbbde24,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 317268039363971042, guid: 21caaac6ca592ae40a33bb94ebbbde24,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 317268038130447577, guid: 21caaac6ca592ae40a33bb94ebbbde24,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1783,26 +1807,6 @@ PrefabInstance:
         type: 3}
       propertyPath: turnSpeed
       value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 317268040016094343, guid: 21caaac6ca592ae40a33bb94ebbbde24,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 317268040016094343, guid: 21caaac6ca592ae40a33bb94ebbbde24,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -20
-      objectReference: {fileID: 0}
-    - target: {fileID: 317268039363971042, guid: 21caaac6ca592ae40a33bb94ebbbde24,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 317268039363971042, guid: 21caaac6ca592ae40a33bb94ebbbde24,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21caaac6ca592ae40a33bb94ebbbde24, type: 3}
@@ -2458,6 +2462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_rock_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1699568350153644, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 225.1091
@@ -2488,7 +2496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2514,6 +2522,10 @@ PrefabInstance:
     - target: {fileID: 1229069962770744, guid: 7f182052d84bb43f19362dc6403a12be, type: 3}
       propertyPath: m_Name
       value: enchantedforest_fence_wood_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1229069962770744, guid: 7f182052d84bb43f19362dc6403a12be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4368620598938294, guid: 7f182052d84bb43f19362dc6403a12be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2545,7 +2557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4368620598938294, guid: 7f182052d84bb43f19362dc6403a12be, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 4368620598938294, guid: 7f182052d84bb43f19362dc6403a12be, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2558,6 +2570,14 @@ PrefabInstance:
     - target: {fileID: 4368620598938294, guid: 7f182052d84bb43f19362dc6403a12be, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090479281628392, guid: 7f182052d84bb43f19362dc6403a12be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913883949719846, guid: 7f182052d84bb43f19362dc6403a12be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f182052d84bb43f19362dc6403a12be, type: 3}
@@ -3387,6 +3407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 241.66635
@@ -3417,7 +3441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3745,6 +3769,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 198.40526
@@ -3775,7 +3803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4115,6 +4143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 214.52226
@@ -4145,7 +4177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4158,6 +4190,14 @@ PrefabInstance:
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
@@ -4810,6 +4850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_rock_3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1815203512773962, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_LocalPosition.x
       value: 245.63356
@@ -4840,7 +4884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4866,6 +4910,10 @@ PrefabInstance:
     - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_Name
       value: enchantedforest_bush_4 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4897,7 +4945,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4999,6 +5047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_bush_4 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 108.69494
@@ -5029,7 +5081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6471,6 +6523,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4729427681249271761, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4729427681249271762, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6509,7 +6566,7 @@ PrefabInstance:
     - target: {fileID: 4729427681249271762, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 4729427681249271762, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
         type: 3}
@@ -6536,16 +6593,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4663367622537510836, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -421
-      objectReference: {fileID: 0}
-    - target: {fileID: 4663367622537510836, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 23
-      objectReference: {fileID: 0}
     - target: {fileID: 4663367622884557442, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -6571,15 +6618,335 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -17.475
       objectReference: {fileID: 0}
-    - target: {fileID: 6605748166865679722, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+    - target: {fileID: 4663367622537510836, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
         type: 3}
-      propertyPath: m_IsTrigger
+      propertyPath: m_LocalPosition.z
+      value: -421
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663367622537510836, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663367622537510838, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729427681421223138, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729427682049795790, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390864963497664173, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071918, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6472188194591425199, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
         type: 3}
       propertyPath: maxHealth
       value: 100000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605748166865679722, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663367622884073122, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729427681315599686, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390864962807155217, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453342901871471580, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071906, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071908, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071910, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071916, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071810, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071812, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071816, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071818, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071820, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071822, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071824, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071826, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071828, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071830, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071834, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071836, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071838, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663367622884073124, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663367622884073126, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729427682602865219, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729427681627934305, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667340104267474392, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071814, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663367622240545550, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729427680703973616, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729427681593519205, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974658330167106592, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282816956980733974, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9124906890413716432, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241503459536469639, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071808, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071832, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729427682795656133, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2175420284554289604, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5996674923777736587, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026926749160766358, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765638334941525777, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032820961348071904, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892891567163227783, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 123513340627862166, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729427680769960052, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729427680906026107, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4280842597754856858, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5306519411905302082, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6358467133411699234, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247414529989693301, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3918294675046329195, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6928042855311320066, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803470685934224380, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4958704403072359639, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622462893410315626, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4304877756040128695, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810102281270535480, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f1a8873ee359e4dae209cc1d8d55a1, type: 3}
@@ -7232,6 +7599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_stump_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 281.7
@@ -7262,7 +7633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_RootOrder
-      value: 61
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7482,6 +7853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_bush_4 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 240.84299
@@ -7512,7 +7887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7721,6 +8096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half
       objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
       value: 256.09836
@@ -7751,7 +8130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8016,6 +8395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 292.19974
@@ -8046,7 +8429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8142,6 +8525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 225.89445
@@ -8172,7 +8559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8198,6 +8585,10 @@ PrefabInstance:
     - target: {fileID: 1041680708357480, guid: c108272a27501428cb268a4bd9bee877, type: 3}
       propertyPath: m_Name
       value: enchantedforest_log (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041680708357480, guid: c108272a27501428cb268a4bd9bee877, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4241040427269830, guid: c108272a27501428cb268a4bd9bee877, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8229,7 +8620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4241040427269830, guid: c108272a27501428cb268a4bd9bee877, type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 4241040427269830, guid: c108272a27501428cb268a4bd9bee877, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8946,6 +9337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_rock_2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1699568350153644, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 299.5352
@@ -8976,7 +9371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9579,6 +9974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_bush_5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1361181321306928, guid: 06c65e58b49bf497fbdec0a0111ab829, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4375170130484464, guid: 06c65e58b49bf497fbdec0a0111ab829, type: 3}
       propertyPath: m_LocalPosition.x
       value: 331.91467
@@ -9609,7 +10008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4375170130484464, guid: 06c65e58b49bf497fbdec0a0111ab829, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 4375170130484464, guid: 06c65e58b49bf497fbdec0a0111ab829, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9799,6 +10198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_stump_2 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 265.50098
@@ -9829,7 +10232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10327,6 +10730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_rock_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1699568350153644, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 213.93141
@@ -10357,7 +10764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11487,6 +11894,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 111.046814
@@ -11517,7 +11928,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11530,6 +11941,14 @@ PrefabInstance:
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
@@ -12628,6 +13047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 239.55812
@@ -12658,7 +13081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 56
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12672,6 +13095,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
 --- !u!1001 &750562380
@@ -12684,6 +13115,10 @@ PrefabInstance:
     - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_Name
       value: enchantedforest_tree_4 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12715,7 +13150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12729,6 +13164,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
 --- !u!1001 &754285613
@@ -12741,6 +13184,10 @@ PrefabInstance:
     - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_Name
       value: enchantedforest_bush_4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12772,7 +13219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13851,6 +14298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 330.13086
@@ -13881,7 +14332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13907,6 +14358,10 @@ PrefabInstance:
     - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_Name
       value: enchantedforest_bush_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13938,7 +14393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13964,6 +14419,10 @@ PrefabInstance:
     - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_Name
       value: enchantedforest_tree_stump_2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13995,7 +14454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_RootOrder
-      value: 62
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14196,6 +14655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 257.15176
@@ -14226,7 +14689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14729,6 +15192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 114.3243
@@ -14759,7 +15226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14773,6 +15240,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
 --- !u!1001 &920970051
@@ -14785,6 +15260,10 @@ PrefabInstance:
     - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_Name
       value: enchantedforest_bush_4 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14816,7 +15295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15006,6 +15485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_stump_2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 250.2
@@ -15036,7 +15519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_RootOrder
-      value: 67
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15632,6 +16115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_bush_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 327.6256
@@ -15662,7 +16149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15695,6 +16182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_stump_2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 260.2
@@ -15725,7 +16216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_RootOrder
-      value: 66
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15902,6 +16393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_bush_4 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 330.19916
@@ -15932,7 +16427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16260,6 +16755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 236.47974
@@ -16290,7 +16789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 55
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16624,6 +17123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_stump_2 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 288.07373
@@ -16654,7 +17157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16856,6 +17359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
       value: 264.4
@@ -16886,7 +17393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_RootOrder
-      value: 70
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17308,6 +17815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_log
       objectReference: {fileID: 0}
+    - target: {fileID: 1041680708357480, guid: c108272a27501428cb268a4bd9bee877, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4241040427269830, guid: c108272a27501428cb268a4bd9bee877, type: 3}
       propertyPath: m_LocalPosition.x
       value: 224.6537
@@ -17338,7 +17849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4241040427269830, guid: c108272a27501428cb268a4bd9bee877, type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 4241040427269830, guid: c108272a27501428cb268a4bd9bee877, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17364,6 +17875,10 @@ PrefabInstance:
     - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_Name
       value: enchantedforest_tree_stump_2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17395,7 +17910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_RootOrder
-      value: 63
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17711,6 +18226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 273.01505
@@ -17741,7 +18260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17855,6 +18374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 305.119
@@ -17885,7 +18408,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17911,6 +18434,10 @@ PrefabInstance:
     - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_Name
       value: enchantedforest_tree_1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17942,7 +18469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -18132,6 +18659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
       value: 276.2
@@ -18162,7 +18693,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -18531,6 +19062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_rock_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1815203512773962, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_LocalPosition.x
       value: 265.1422
@@ -18561,7 +19096,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19164,6 +19699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_stump_2 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 250.2
@@ -19194,7 +19733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_RootOrder
-      value: 68
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19308,6 +19847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_rock_2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1699568350153644, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 318.55878
@@ -19338,7 +19881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19364,6 +19907,10 @@ PrefabInstance:
     - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_Name
       value: enchantedforest_tree_1 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19395,7 +19942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19654,6 +20201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_bush_4 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 314.2891
@@ -19684,7 +20235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19710,6 +20261,10 @@ PrefabInstance:
     - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_Name
       value: enchantedforest_tree_4 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19741,7 +20296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19754,6 +20309,14 @@ PrefabInstance:
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
@@ -20044,6 +20607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_stump_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 292.56314
@@ -20074,7 +20641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -20324,6 +20891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 300.5915
@@ -20354,7 +20925,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -20367,6 +20938,14 @@ PrefabInstance:
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
@@ -21654,6 +22233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 178.1655
@@ -21684,7 +22267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21786,6 +22369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
       value: 296.19833
@@ -21816,7 +22403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_RootOrder
-      value: 72
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22262,6 +22849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_stump_2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 271.9
@@ -22292,7 +22883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_RootOrder
-      value: 65
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -23471,6 +24062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_bush_4 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 238.78206
@@ -23501,7 +24096,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -23668,6 +24263,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -2.3
       objectReference: {fileID: 0}
+    - target: {fileID: 317268040016094343, guid: 21caaac6ca592ae40a33bb94ebbbde24,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 317268040016094343, guid: 21caaac6ca592ae40a33bb94ebbbde24,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 317268039363971042, guid: 21caaac6ca592ae40a33bb94ebbbde24,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 317268039363971042, guid: 21caaac6ca592ae40a33bb94ebbbde24,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 317268038130447577, guid: 21caaac6ca592ae40a33bb94ebbbde24,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23697,26 +24312,6 @@ PrefabInstance:
         type: 3}
       propertyPath: turnSpeed
       value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 317268040016094343, guid: 21caaac6ca592ae40a33bb94ebbbde24,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 317268040016094343, guid: 21caaac6ca592ae40a33bb94ebbbde24,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -20
-      objectReference: {fileID: 0}
-    - target: {fileID: 317268039363971042, guid: 21caaac6ca592ae40a33bb94ebbbde24,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 317268039363971042, guid: 21caaac6ca592ae40a33bb94ebbbde24,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21caaac6ca592ae40a33bb94ebbbde24, type: 3}
@@ -24226,6 +24821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_rock_3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1815203512773962, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_LocalPosition.x
       value: 264.88794
@@ -24256,7 +24855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24421,6 +25020,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 206.39944
@@ -24451,7 +25054,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24477,6 +25080,10 @@ PrefabInstance:
     - target: {fileID: 1361181321306928, guid: 06c65e58b49bf497fbdec0a0111ab829, type: 3}
       propertyPath: m_Name
       value: enchantedforest_bush_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361181321306928, guid: 06c65e58b49bf497fbdec0a0111ab829, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4375170130484464, guid: 06c65e58b49bf497fbdec0a0111ab829, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24508,7 +25115,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4375170130484464, guid: 06c65e58b49bf497fbdec0a0111ab829, type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 4375170130484464, guid: 06c65e58b49bf497fbdec0a0111ab829, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24847,6 +25454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 321.33884
@@ -24877,7 +25488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24890,6 +25501,14 @@ PrefabInstance:
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
@@ -24909,6 +25528,10 @@ PrefabInstance:
     - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_Name
       value: enchantedforest_tree_4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24940,7 +25563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24954,6 +25577,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
 --- !u!1001 &1635847420
@@ -24966,6 +25597,10 @@ PrefabInstance:
     - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_Name
       value: enchantedforest_tree_1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706610291850926, guid: 7561da044a00645e39d086b91c138738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24997,7 +25632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4606305320375762, guid: 7561da044a00645e39d086b91c138738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -25419,6 +26054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_rock_2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1699568350153644, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 242.64587
@@ -25449,7 +26088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -25708,6 +26347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
       value: 299.8
@@ -25738,7 +26381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_RootOrder
-      value: 69
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -27499,6 +28142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 334.49142
@@ -27529,7 +28176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -27542,6 +28189,14 @@ PrefabInstance:
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
@@ -27573,7 +28228,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 48f9c360f60bb8044b0bcec47b3eb7b4, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &1820343656
 Terrain:
   m_ObjectHideFlags: 0
@@ -27631,6 +28286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 328.3585
@@ -27661,7 +28320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -27674,6 +28333,14 @@ PrefabInstance:
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
@@ -27995,6 +28662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_rock_2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1699568350153644, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 266.4755
@@ -28025,7 +28696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 4582363405951748, guid: 6da02d34fe25044bb93d5c92331942e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -28290,6 +28961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 281.62753
@@ -28320,7 +28995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -28333,6 +29008,14 @@ PrefabInstance:
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
@@ -28510,6 +29193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 269.4121
@@ -28540,7 +29227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -28553,6 +29240,14 @@ PrefabInstance:
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
@@ -29257,6 +29952,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 240.93457
@@ -29287,7 +29986,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -29300,6 +29999,14 @@ PrefabInstance:
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
@@ -29319,6 +30026,10 @@ PrefabInstance:
     - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_Name
       value: enchantedforest_bush_4 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29350,7 +30061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -29726,6 +30437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_bush_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 319.73218
@@ -29756,7 +30471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -29927,6 +30642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_rock_3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1815203512773962, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_LocalPosition.x
       value: 316.31036
@@ -29957,7 +30676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -29983,6 +30702,10 @@ PrefabInstance:
     - target: {fileID: 1815203512773962, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_Name
       value: enchantedforest_rock_3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1815203512773962, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30014,7 +30737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 4468419111988058, guid: c9aa4a3148596484c8c90684cad71854, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -30203,6 +30926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_stump_2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1409515849745248, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 292.56314
@@ -30233,7 +30960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_RootOrder
-      value: 64
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: 4836733127638446, guid: cb7e68188a3c74235816fb9bf64e04a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -30549,6 +31276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_tree_4 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1652801059424910, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 187.11102
@@ -30592,6 +31323,14 @@ PrefabInstance:
     - target: {fileID: 4145596086863014, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735743188490716, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651009526815468, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d913c88cf9f0541b8825af54c4eef4f4, type: 3}
@@ -30976,6 +31715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_bush_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1194237144135114, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 235.81107
@@ -31006,7 +31749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_RootOrder
-      value: 54
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 4708353823052640, guid: 6c13e05b322474b1b9e5e64a664694d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

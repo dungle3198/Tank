@@ -1,0 +1,2 @@
+C:\Users\Dung Le\Documents\GitHub\Tank\Building_IT_System\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Dung Le\Documents\GitHub\Tank\Building_IT_System\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

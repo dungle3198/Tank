@@ -9172,17 +9172,17 @@ PrefabInstance:
     - target: {fileID: 824860720417309892, guid: 142071a9d60d5af489362cf7ecaa4287,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 66.75
       objectReference: {fileID: 0}
     - target: {fileID: 824860720417309892, guid: 142071a9d60d5af489362cf7ecaa4287,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 824860720417309892, guid: 142071a9d60d5af489362cf7ecaa4287,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -69.5
       objectReference: {fileID: 0}
     - target: {fileID: 824860720417309892, guid: 142071a9d60d5af489362cf7ecaa4287,
         type: 3}
@@ -41579,7 +41579,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0.000015258789
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3743157544181989819, guid: 79e21c7ec1dd27845a2ce6fd496ef5bf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 79e21c7ec1dd27845a2ce6fd496ef5bf, type: 3}
 --- !u!4 &5635946699313791288 stripped
 Transform:
@@ -41674,11 +41675,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tank_Player3
       objectReference: {fileID: 0}
-    - target: {fileID: 2216798524731080457, guid: 97f01a33c5fd5a949a855b3379394c53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2216798524731080459, guid: 97f01a33c5fd5a949a855b3379394c53,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41738,10 +41734,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1861549111, guid: 97f01a33c5fd5a949a855b3379394c53, type: 3}
-      propertyPath: maxAmmo
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97f01a33c5fd5a949a855b3379394c53, type: 3}
