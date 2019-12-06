@@ -24,7 +24,7 @@ public class AIHUD : MonoBehaviour
     {
         if(health)
         {
-            HealthBar.sizeDelta = new Vector2(health.getHealthPercentage()*100*4, HealthBar.sizeDelta.y);
+            HealthBar.sizeDelta = new Vector2(health.getHealthPercentage()*100, HealthBar.sizeDelta.y);
         }
     }
 }

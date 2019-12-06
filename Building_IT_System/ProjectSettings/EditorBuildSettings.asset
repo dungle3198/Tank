@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScene.unity
     guid: 8dc86867de1a0f04e832ebd8efb3db8c
   - enabled: 1
-    path: Assets/BITS_THUAN/Level/Level 1.unity
-    guid: b1830d21381d1d34caef9153ceee4aa8
+    path: Assets/BITS_THUAN/Level/Level 1/Level 1.unity
+    guid: 1dadd9fa5b728604487aef76ab74d7da
   - enabled: 1
     path: Assets/BITS_THUAN/Level/Level 2/Level2-test.unity
     guid: 3b1bfb1098a62b842ac2ea114c42beba

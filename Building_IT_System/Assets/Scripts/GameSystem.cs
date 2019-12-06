@@ -32,6 +32,14 @@ public class GameSystem : MonoBehaviour
         SceneManager.LoadScene(scene_name, LoadSceneMode.Additive);
         SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene_name));
     }
+    public void LoadNextLevel()
+    {
+        SceneManager.UnloadScene(levels[currentLevelIndex]);
+        moveLevel(true);
+        string scene_name = levels[currentLevelIndex];
+        SceneManager.LoadScene(scene_name, LoadSceneMode.Additive);
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene_name));
+    }
     public void moveLevel(bool nextorback) // next is true, back is false
     {
         if(nextorback)
