@@ -59,4 +59,23 @@ public class GameSystem : MonoBehaviour
             }
         }
     }
+    public void IncreaseHealthLevel()
+    {
+        m_Health += 1;
+        m_Health = Mathf.Clamp(m_Health, 0, 3);
+        PlayerPrefs.SetInt("maxhealth", m_Health);
+    }
+    public void IncreaseDammageLevel()
+    {
+        m_Damage += 1;
+        m_Damage = Mathf.Clamp(m_Damage, 0, 3);
+        PlayerPrefs.SetInt("maxdamage", m_Damage);
+    }
+    public void IncreaseAmmoLevel()
+    {
+        m_Ammo += 1;
+        m_Ammo = Mathf.Clamp(m_Ammo, 0, 3);
+        PlayerPrefs.SetInt("maxammo", m_Ammo);
+    }
+
 }
