@@ -12,6 +12,10 @@ public class RocketGun : Gun
     float maxforce;
     [SerializeField]
     RectTransform forceBar;
+    [SerializeField]
+    Transform Landmark;
+    [SerializeField]
+    Vector3 originalPos;
     void Start()
     {
         currentAmmo = maxAmmo;
@@ -22,6 +26,10 @@ public class RocketGun : Gun
         if(GetComponentInParent<Player>())
         {
             player = GetComponentInParent<Player>();
+        }
+        if(Landmark)
+        {
+            originalPos = Landmark.localPosition;
         }
 
     }
@@ -36,13 +44,18 @@ public class RocketGun : Gun
         if (Input.GetKey(KeyCode.Space))
         {
             
-            force = Mathf.Clamp(force, 5, maxforce);
-            force += Time.deltaTime * 4;
+            force = Mathf.Clamp(force, 0, maxforce);
+            force += Time.deltaTime * 0.1f;
+            if(Landmark)
+            {
+                Vector3 newPos = new Vector3(Landmark.localPosition.x, Landmark.localPosition.y, Landmark.localPosition.z + force);
+                Landmark.localPosition = Vector3.Lerp(Landmark.localPosition,newPos,1*Time.deltaTime);
+            }
         }
         if (Input.GetKeyUp(KeyCode.Space))
         {
             ReleaseRocket();
-            force = 5;
+            
         }
         if (forceBar)
         {
@@ -62,15 +75,18 @@ public class RocketGun : Gun
             }
             if (bulletPrefab)
             {
-                var bullet = (GameObject)Instantiate(bulletPrefab, transform.position, transform.rotation);
+                Vector3 spawnPos = new Vector3(Landmark.position.x, Landmark.position.y + 20, Landmark.position.z);
+                var bullet = (GameObject)Instantiate(bulletPrefab, spawnPos, transform.rotation);
                 if (bullet.GetComponent<Rigidbody>())
                 {
-                    bullet.GetComponent<Rigidbody>().AddForce(transform.forward * force + player.GetRigidbody().velocity, ForceMode.Impulse);
+          
+                    //bullet.GetComponent<Rigidbody>().AddForce(transform.forward * force + player.GetRigidbody().velocity, ForceMode.Impulse);
                     bullet.GetComponent<Bullet>().setCurrentTeam(this.currentTeam);
                     bullet.GetComponent<Bullet>().setDamage(damage);
                 }
             }
             currentAmmo--;
+            Landmark.localPosition = originalPos;
         }
         else
         {
