@@ -76,6 +76,11 @@ public class RocketGun : Gun
             if (bulletPrefab)
             {
                 Vector3 spawnPos = new Vector3(Landmark.position.x, Landmark.position.y + 20, Landmark.position.z);
+                if(Landmark)
+                {
+                    var marker = (GameObject)Instantiate(Landmark.gameObject, Landmark.position, Landmark.rotation);
+                    Destroy(marker, 3);
+                }
                 var bullet = (GameObject)Instantiate(bulletPrefab, spawnPos, transform.rotation);
                 if (bullet.GetComponent<Rigidbody>())
                 {
@@ -91,6 +96,20 @@ public class RocketGun : Gun
         else
         {
             StartCoroutine(Reload());
+        }
+    }
+    private void OnDisable()
+    {
+        if(Landmark)
+        {
+            Landmark.gameObject.SetActive(false);
+        }
+    }
+    private void OnEnable()
+    {
+        if (Landmark)
+        {
+            Landmark.gameObject.SetActive(true);
         }
     }
 }
