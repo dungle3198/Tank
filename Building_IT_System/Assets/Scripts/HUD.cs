@@ -7,12 +7,40 @@ public class HUD : MonoBehaviour
     [SerializeField] private Text healthText;
     [SerializeField] private Text ammoText;
 
+    Player player;
+    private void Start()
+    {
+        if(FindObjectOfType<Player>())
+        {
+            player = FindObjectOfType<Player>();
+        }
+    }
     public void healthChange(float health_value)
     {
      
         if(healthText)
         {
             healthText.text = health_value * 100 + " / 100" ;
+        }
+    }
+    private void Update()
+    {
+        if(player)
+        {
+            if (ammoText)
+            {
+                if (player.getGun())
+                {
+                    if (player.getGun().getcurrentAmmo() > 0)
+                    {
+                        ammoText.text = player.getGun().getcurrentAmmo().ToString();
+                    }
+                    else
+                    {
+                        ammoText.text = "Reloading";
+                    }
+                }
+            }
         }
     }
     public void ammoChange(float ammo_value)

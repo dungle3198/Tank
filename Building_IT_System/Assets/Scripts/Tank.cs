@@ -114,4 +114,8 @@ public class Tank : MonoBehaviour
             gun.increaseMaxAmmo(numAmmo);
         }
     }
+    public Gun getGun()
+    {
+        return gun;
+    }
 }
