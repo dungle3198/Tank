@@ -85,11 +85,11 @@ public class Player : Tank
                 }
             }
         }
-        if(Upperbody)
+        /*if(Upperbody)
         {
             float x = Input.GetAxis("Mouse X");
             Upperbody.Rotate(0, 0,x);
-        }
+        }*/
     }
     protected override void gunFunction()
     {

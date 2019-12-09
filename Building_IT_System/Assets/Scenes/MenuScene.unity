@@ -682,7 +682,7 @@ MonoBehaviour:
   currentLevelIndex: 0
   levels:
   - Level 1
-  - Level2-test
+  - Test_boss
 --- !u!1 &742338117
 GameObject:
   m_ObjectHideFlags: 0

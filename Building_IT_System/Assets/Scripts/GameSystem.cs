@@ -30,15 +30,15 @@ public class GameSystem : MonoBehaviour
     {
         string scene_name = levels[currentLevelIndex];
         SceneManager.LoadScene(scene_name, LoadSceneMode.Additive);
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene_name));
+        //SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene_name));
     }
     public void LoadNextLevel()
     {
-        SceneManager.UnloadScene(levels[currentLevelIndex]);
+        SceneManager.UnloadSceneAsync(levels[currentLevelIndex]);
         moveLevel(true);
         string scene_name = levels[currentLevelIndex];
         SceneManager.LoadScene(scene_name, LoadSceneMode.Additive);
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene_name));
+        //SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene_name));
     }
     public void moveLevel(bool nextorback) // next is true, back is false
     {
