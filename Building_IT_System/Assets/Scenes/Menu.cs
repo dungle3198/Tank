@@ -16,6 +16,8 @@ public class Menu : MonoBehaviour
     Text UpgradeDamageText;
     [SerializeField]
     Text UpgradeAmmoText;
+    [SerializeField]
+    GameObject menu;
     public Text LevelText; 
     private void Update()
     {
@@ -38,5 +40,12 @@ public class Menu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+    public void BackButtonFromGame()
+    {
+        if(menu)
+        {
+            menu.SetActive(true);
+        }
     }
 }

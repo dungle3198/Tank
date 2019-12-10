@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class LevelComplete : MonoBehaviour
 {
-    GameSystem GS;
+    LevelSystem LS;
     // Start is called before the first frame update
     void Start()
     {
-        if(FindObjectOfType<GameSystem>())
+        if(FindObjectOfType<LevelSystem>())
         {
-            GS = FindObjectOfType<GameSystem>();
+            LS = FindObjectOfType<LevelSystem>();
         }
     }
     private void OnTriggerEnter(Collider other)
     {
         if(other.GetComponent<Player>())
         {
-            GS.LoadNextLevel();
+
+            LS.LevelComplete();
         }
     }
 }

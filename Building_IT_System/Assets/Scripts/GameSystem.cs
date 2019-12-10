@@ -13,6 +13,7 @@ public class GameSystem : MonoBehaviour
 
     public int currentLevelIndex = 0;
     public List<string> levels = new List<string>();
+    public Menu menu;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +25,10 @@ public class GameSystem : MonoBehaviour
    
         currentLevelIndex = 0; 
   
-   
+        if(GetComponent<Menu>())
+        {
+            menu = GetComponent<Menu>();
+        }
     }
     public void loadLevel()
     {
@@ -77,5 +81,19 @@ public class GameSystem : MonoBehaviour
         m_Ammo = Mathf.Clamp(m_Ammo, 0, 3);
         PlayerPrefs.SetInt("maxammo", m_Ammo);
     }
+    public void BackfromGame()
+    {
+        SceneManager.UnloadSceneAsync(levels[currentLevelIndex]);
+        if (menu)
+        {
+            menu.BackButtonFromGame();
+        }
+    }
+    public void RetryLevel()
+    {
+        SceneManager.UnloadSceneAsync(levels[currentLevelIndex]);
+        string scene_name = levels[currentLevelIndex];
+        SceneManager.LoadScene(scene_name, LoadSceneMode.Additive);
 
+    }
 }

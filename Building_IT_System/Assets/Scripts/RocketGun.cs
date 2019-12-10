@@ -80,15 +80,16 @@ public class RocketGun : Gun
                 {
                     var marker = (GameObject)Instantiate(Landmark.gameObject, Landmark.position, Landmark.rotation);
                     Destroy(marker, 3);
+                    var bullet = (GameObject)Instantiate(bulletPrefab, spawnPos, transform.rotation);
+                    if (bullet.GetComponent<Rigidbody>())
+                    {
+
+                        //bullet.GetComponent<Rigidbody>().AddForce(transform.forward * force + player.GetRigidbody().velocity, ForceMode.Impulse);
+                        bullet.GetComponent<Bullet>().setCurrentTeam(this.currentTeam);
+                        bullet.GetComponent<Bullet>().setDamage(damage);
+                    }
                 }
-                var bullet = (GameObject)Instantiate(bulletPrefab, spawnPos, transform.rotation);
-                if (bullet.GetComponent<Rigidbody>())
-                {
-          
-                    //bullet.GetComponent<Rigidbody>().AddForce(transform.forward * force + player.GetRigidbody().velocity, ForceMode.Impulse);
-                    bullet.GetComponent<Bullet>().setCurrentTeam(this.currentTeam);
-                    bullet.GetComponent<Bullet>().setDamage(damage);
-                }
+               
             }
             currentAmmo--;
             Landmark.localPosition = originalPos;

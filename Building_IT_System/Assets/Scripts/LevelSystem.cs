@@ -17,6 +17,10 @@ public class LevelSystem : MonoBehaviour
     Text ResultText;
     [SerializeField]
     GameObject RetryButton;
+    [SerializeField]
+    GameObject NextLevelButton;
+    [SerializeField]
+    GameSystem GS;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +36,10 @@ public class LevelSystem : MonoBehaviour
         if(RetryButton)
         {
             RetryButton.SetActive(false);
+        }
+        if(FindObjectOfType<GameSystem>())
+        {
+            GS = FindObjectOfType<GameSystem>();
         }
     }
 
@@ -50,12 +58,12 @@ public class LevelSystem : MonoBehaviour
     }
     public void Retry()
     {
-        spawning();
-        Result(false);
-        if (RetryButton)
+        Time.timeScale = 1;
+        if (GS)
         {
-            RetryButton.SetActive(false);
+            GS.RetryLevel();
         }
+        
     }
     public void Menu()
     {
@@ -68,26 +76,47 @@ public class LevelSystem : MonoBehaviour
         {
             if (ResultBoard)
             {
-                print("hello");
                 ResultBoard.SetActive(true);
                 Time.timeScale = 0;
                 if(completed)
                 {
                     if(ResultText)
                     {
-                        ResultText.text = "YOU HAVE COMPLETED THE LEVEL!";
+                        ResultText.text = gameObject.scene.name +
+                            "\nYOU HAVE COMPLETED THE LEVEL!";
                     }
-                   
+                    if(NextLevelButton)
+                    {
+                        NextLevelButton.SetActive(true);
+                        if (GS)
+                        {
+                            if(GS.currentLevelIndex == GS.levels.Count-1)
+                            {
+                                NextLevelButton.SetActive(false);
+                            }
+                        }
+                        
+                    }
+                    if (RetryButton)
+                    {
+                        RetryButton.SetActive(false);
+                    }
+
                 }
                 else
                 {
                     if (ResultText)
                     {
-                        ResultText.text = "YOU ARE DEATH, YOU WANT TO RETRY?";
+                        ResultText.text = gameObject.scene.name +  "\nYOU ARE DEATH, YOU WANT TO RETRY?";
                     }
                     if (RetryButton)
                     {
                         RetryButton.SetActive(true);
+                    }
+                    if (NextLevelButton)
+                    {
+                      
+                        NextLevelButton.SetActive(false);
                     }
                 }
             }
@@ -100,5 +129,25 @@ public class LevelSystem : MonoBehaviour
                 Time.timeScale = 1;
             }
         }
+    }
+    public void NextLevel()
+    {
+        if (GS)
+        {
+            GS.LoadNextLevel();
+        }
+    }
+    public void backButton()
+    {
+        Time.timeScale = 1;
+        if (GS)
+        {
+            GS.BackfromGame();
+        }
+    }
+    public void LevelComplete()
+    {
+        completed = true;
+        Result(true);
     }
 }
