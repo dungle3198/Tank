@@ -25,8 +25,12 @@ public class Line : MonoBehaviour
         stayTime += Time.deltaTime;
         if (stayTime > interval)
         {
-            Player player = other.GetComponent<Player>();
-            player.applyDamge(damage, Tank.Team.enemy);
+            if(other.GetComponent<Player>())
+            {
+                Player player = other.GetComponent<Player>();
+                player.applyDamge(damage, Tank.Team.enemy);
+            }
+           
             stayTime = 0;
         }
     }

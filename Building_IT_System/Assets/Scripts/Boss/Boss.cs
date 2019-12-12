@@ -52,7 +52,7 @@ public class Boss : Enemy
             {
                 first_stage_actions[stage_status]();
             }
-            else if(health.getHealthPercentage() * 100 < 75 && health.getHealthPercentage() * 100 > 25)
+            else if(health.getHealthPercentage() * 100 < 75)
             {
                 second_stage_actions[stage_status]();
             }

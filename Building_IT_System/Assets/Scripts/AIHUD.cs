@@ -10,6 +10,10 @@ public class AIHUD : MonoBehaviour
     protected RectTransform HealthBar;
     [SerializeField]
     protected Health health;
+    [SerializeField]
+    protected RectTransform HealthTransform;
+    [SerializeField]
+    protected float rate = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +28,15 @@ public class AIHUD : MonoBehaviour
     {
         if(health)
         {
-            HealthBar.sizeDelta = new Vector2(health.getHealthPercentage()*100, HealthBar.sizeDelta.y);
+           
+            if (HealthBar)
+            {
+                HealthBar.sizeDelta = new Vector2(health.getHealthPercentage() * 100 * rate, HealthBar.sizeDelta.y);
+                if (HealthTransform)
+                {
+                    HealthTransform.sizeDelta = Vector2.Lerp(HealthTransform.sizeDelta, HealthBar.sizeDelta, Time.deltaTime);
+                }
+            }
         }
     }
 }

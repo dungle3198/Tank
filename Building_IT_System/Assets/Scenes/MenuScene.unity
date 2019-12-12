@@ -1049,7 +1049,8 @@ MonoBehaviour:
   currentLevelIndex: 0
   levels:
   - Level 1
-  - Test_boss
+  - Level2-test
+  - Level 3
   menu: {fileID: 0}
 --- !u!1 &742338117
 GameObject:

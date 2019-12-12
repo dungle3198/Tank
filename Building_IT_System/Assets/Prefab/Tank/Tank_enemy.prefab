@@ -319,8 +319,8 @@ MonoBehaviour:
   distance: 0
   offSet: 3
   agent: {fileID: 0}
-  chasingDistance: 25
-  attackDistance: 15
+  chasingDistance: 35
+  attackDistance: 25
   shootTime: 0
   interval: 1.5
 --- !u!1 &1904247453
@@ -586,6 +586,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HealthBar: {fileID: 8648214119277093707}
   health: {fileID: 0}
+  HealthTransform: {fileID: 0}
+  rate: 1
 --- !u!1 &3732704912860936093
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,6 +1044,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 2300028, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73272750ef076ac42bcaca7526311d70, type: 2}
     - target: {fileID: 2300034, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1050,10 +1056,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f2699a43f2eee974586c95a7d6e0625d, type: 2}
-    - target: {fileID: 2300028, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73272750ef076ac42bcaca7526311d70, type: 2}
     - target: {fileID: 2300000, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

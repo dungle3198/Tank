@@ -42,6 +42,7 @@ public class GameSystem : MonoBehaviour
         moveLevel(true);
         string scene_name = levels[currentLevelIndex];
         SceneManager.LoadScene(scene_name, LoadSceneMode.Additive);
+        Time.timeScale = 1;
         //SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene_name));
     }
     public void moveLevel(bool nextorback) // next is true, back is false
