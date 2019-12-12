@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
+    [SerializeField]
+    int size = 6;
     public void open()
     {
-        transform.Translate((Vector3.down*6));
+        transform.Translate((Vector3.down*size));
     }
 }
