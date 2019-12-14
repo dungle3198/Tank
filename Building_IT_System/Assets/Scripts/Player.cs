@@ -27,8 +27,7 @@ public class Player : Tank
         if(FindObjectOfType<HUD>())
         {
             hud = FindObjectOfType<HUD>();
-            hud.healthChange(health.getHealthPercentage());
-            hud.ammoChange(gun.getcurrentAmmo());
+            
         }
         if(FindObjectOfType<LevelSystem>())
         {
@@ -98,10 +97,7 @@ public class Player : Tank
             if (Input.GetButtonDown("Jump"))
             {
                 gun.Shoot();
-                if (hud)
-                {
-                    hud.ammoChange(gun.getcurrentAmmo());
-                }
+               
             }
         }
     }
@@ -116,10 +112,7 @@ public class Player : Tank
             if (health)
             {
                 health.applyDamage(damage);
-                if(hud)
-                {
-                    hud.healthChange(health.getHealthPercentage());
-                }
+              
                 death();
             }
         }
@@ -130,10 +123,7 @@ public class Player : Tank
         if (health)
         {
             health.applyDamage(damage);
-            if (hud)
-            {
-                hud.healthChange(health.getHealthPercentage());
-            }
+
             death();
             print("fire damage");
         }
@@ -169,18 +159,12 @@ public class Player : Tank
         if(health)
         {
             health.GainFullHealth();
-            if (hud)
-            {
-                hud.healthChange(health.getHealthPercentage());
-            }
+           
         }
         if (gun)
         {
             gun.fastReload();
-            if (hud)
-            {
-                hud.ammoChange(gun.getcurrentAmmo());
-            }
+         
         }
         this.GetComponent<Player>().enabled = true;
     }

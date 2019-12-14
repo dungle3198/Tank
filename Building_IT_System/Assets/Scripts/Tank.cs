@@ -41,6 +41,7 @@ public class Tank : MonoBehaviour
         {
             tankSound = gameObject.AddComponent<AudioSource>();
             tankSound.playOnAwake = false;
+            tankSound.maxDistance = 30;
         }
     }
     public virtual void applyDamge(float damage,Team oppositeTeam)
@@ -117,5 +118,9 @@ public class Tank : MonoBehaviour
     public Gun getGun()
     {
         return gun;
+    }
+    public Health GetHealth()
+    {
+        return health;
     }
 }

@@ -16,23 +16,40 @@ public class Sphere : MonoBehaviour
     float interval = 5;
     [SerializeField]
     float shootTime = 0;
+    [SerializeField]
+    Player player;
+    [SerializeField]
+    float Distance;
+    [SerializeField]
+    float AttackDistance = 35;
     // Start is called before the first frame update
     void Start()
     {
+        if(FindObjectOfType<Player>())
+        {
+            player = FindObjectOfType<Player>();
+        }
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        shootTime += Time.deltaTime;
-        if (shootTime > interval)
+        if (player)
         {
-            gun1.Shoot();
-            gun2.Shoot();
-            gun3.Shoot();
-            gun4.Shoot();
-            shootTime = 0;
+            Distance = Vector3.Distance(transform.position, player.transform.position);
+            if (Distance < AttackDistance)
+            {
+                shootTime += Time.deltaTime;
+                if (shootTime > interval)
+                {
+                    gun1.Shoot();
+                    gun2.Shoot();
+                    gun3.Shoot();
+                    gun4.Shoot();
+                    shootTime = 0;
+                }
+            }
         }
     }
 }

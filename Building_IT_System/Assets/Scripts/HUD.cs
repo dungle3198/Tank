@@ -41,6 +41,13 @@ public class HUD : MonoBehaviour
                     }
                 }
             }
+            if(healthText)
+            {
+                if(player.GetHealth())
+                {
+                    healthText.text = (player.GetHealth().getHealthPercentage() * 100).ToString() + " /100";
+                }
+            }
         }
     }
     public void ammoChange(float ammo_value)
