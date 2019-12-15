@@ -21,6 +21,8 @@ public class LevelSystem : MonoBehaviour
     GameObject NextLevelButton;
     [SerializeField]
     GameSystem GS;
+    [SerializeField]
+    GameObject pauseScreen;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,7 +48,8 @@ public class LevelSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        SetPauseScreen();
     }
     public void spawning()
     {
@@ -67,66 +70,71 @@ public class LevelSystem : MonoBehaviour
     }
     public void Menu()
     {
-       
     }
     public void Result(bool on)
     {
-        Cursor.lockState = CursorLockMode.None;
-        if (on)
+       if(pauseScreen)
         {
-            if (ResultBoard)
+            if(pauseScreen.active ==false )
             {
-                ResultBoard.SetActive(true);
-                Time.timeScale = 0;
-                if(completed)
+                Cursor.lockState = CursorLockMode.None;
+                if (on)
                 {
-                    if(ResultText)
+                    if (ResultBoard)
                     {
-                        ResultText.text = gameObject.scene.name +
-                            "\nYOU HAVE COMPLETED THE LEVEL!";
-                    }
-                    if(NextLevelButton)
-                    {
-                        NextLevelButton.SetActive(true);
-                        if (GS)
+                        ResultBoard.SetActive(true);
+                        Time.timeScale = 0;
+                        if (completed)
                         {
-                            if(GS.currentLevelIndex == GS.levels.Count-1)
+                            if (ResultText)
                             {
+                                ResultText.text = gameObject.scene.name +
+                                    "\nYOU HAVE COMPLETED THE LEVEL!";
+                            }
+                            if (NextLevelButton)
+                            {
+                                NextLevelButton.SetActive(true);
+                                if (GS)
+                                {
+                                    if (GS.currentLevelIndex == GS.levels.Count - 1)
+                                    {
+                                        NextLevelButton.SetActive(false);
+                                    }
+                                }
+
+                            }
+                            if (RetryButton)
+                            {
+                                RetryButton.SetActive(false);
+                            }
+
+                        }
+                        else
+                        {
+                            if (ResultText)
+                            {
+                                ResultText.text = gameObject.scene.name + "\nYOU ARE DEATH, YOU WANT TO RETRY?";
+                            }
+                            if (RetryButton)
+                            {
+                                RetryButton.SetActive(true);
+                            }
+                            if (NextLevelButton)
+                            {
+
                                 NextLevelButton.SetActive(false);
                             }
                         }
-                        
                     }
-                    if (RetryButton)
-                    {
-                        RetryButton.SetActive(false);
-                    }
-
                 }
                 else
                 {
-                    if (ResultText)
+                    if (ResultBoard)
                     {
-                        ResultText.text = gameObject.scene.name +  "\nYOU ARE DEATH, YOU WANT TO RETRY?";
-                    }
-                    if (RetryButton)
-                    {
-                        RetryButton.SetActive(true);
-                    }
-                    if (NextLevelButton)
-                    {
-                      
-                        NextLevelButton.SetActive(false);
+                        ResultBoard.SetActive(false);
+                        Time.timeScale = 1;
                     }
                 }
-            }
-        }
-       else
-        {
-            if (ResultBoard)
-            {
-                ResultBoard.SetActive(false);
-                Time.timeScale = 1;
             }
         }
     }
@@ -150,4 +158,32 @@ public class LevelSystem : MonoBehaviour
         completed = true;
         Result(true);
     }
+    public void SetPauseScreen()
+    {
+        if(pauseScreen)
+        {
+            if(Input.GetKeyDown(KeyCode.Escape))
+            {
+                if(ResultBoard)
+                {
+                    if(ResultBoard.active==false)
+                    {
+                        if (pauseScreen.active == false)
+                        {
+                            pauseScreen.SetActive(true);
+                            Time.timeScale = 0;
+                        }
+                        else
+                        {
+                            pauseScreen.SetActive(false);
+                            Time.timeScale = 1;
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
 }
+
