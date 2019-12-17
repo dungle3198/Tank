@@ -325,7 +325,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8437299550915071585}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -7.318943, y: -14.859882, z: -82.86885}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -433,6 +433,9 @@ MonoBehaviour:
   attackDistance: 15
   shootTime: 0
   interval: 1.5
+  goldPrefab: {fileID: 8735499789106552023, guid: 861d47dadf80ec148a31eaf0b1ac62a8,
+    type: 3}
+  coin: 1
   selfdamage: 30
   explosiveCol: {fileID: 5136704542176934757}
 --- !u!135 &5136704542176934757
@@ -899,6 +902,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HealthBar: {fileID: 942360452070422223}
   health: {fileID: 0}
+  HealthTransform: {fileID: 0}
+  rate: 1
 --- !u!1001 &42722426282773671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -990,11 +995,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
+    - target: {fileID: 2300036, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f2699a43f2eee974586c95a7d6e0625d, type: 2}
+    - target: {fileID: 2300034, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f2699a43f2eee974586c95a7d6e0625d, type: 2}
+    - target: {fileID: 2300028, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 73272750ef076ac42bcaca7526311d70, type: 2}
-    - target: {fileID: 2300028, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
+    - target: {fileID: 2300000, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 73272750ef076ac42bcaca7526311d70, type: 2}
@@ -1002,14 +1015,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 73272750ef076ac42bcaca7526311d70, type: 2}
-    - target: {fileID: 2300034, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f2699a43f2eee974586c95a7d6e0625d, type: 2}
-    - target: {fileID: 2300036, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f2699a43f2eee974586c95a7d6e0625d, type: 2}
     - target: {fileID: 2300038, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1038,10 +1043,6 @@ PrefabInstance:
     - target: {fileID: 100012, guid: 7b912c5dfa554a04296ecbf246180058, type: 3}
       propertyPath: m_Name
       value: hamvee
-      objectReference: {fileID: 0}
-    - target: {fileID: 100012, guid: 7b912c5dfa554a04296ecbf246180058, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 7b912c5dfa554a04296ecbf246180058, type: 3}
       propertyPath: m_LocalPosition.x

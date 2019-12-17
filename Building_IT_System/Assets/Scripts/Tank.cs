@@ -50,7 +50,12 @@ public class Tank : MonoBehaviour
         {
             if(health)
             {
-                health.applyDamage(damage);
+                if (health.getCurrentHealth() > 0)
+                {
+                    health.applyDamage(damage);
+                }
+                
+                    
                 if(health.getCurrentHealth() <= 0)
                 {
                     death();

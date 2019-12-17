@@ -97,4 +97,9 @@ public class GameSystem : MonoBehaviour
         SceneManager.LoadScene(scene_name, LoadSceneMode.Additive);
 
     }
+    public void SetCoin(int amount)
+    {
+        m_Gold = amount;
+        PlayerPrefs.SetInt("gold", m_Gold);
+    }
 }

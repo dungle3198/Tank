@@ -23,6 +23,10 @@ public class Enemy :AI
     float shootTime = 0;
     [SerializeField]
     float interval = 1.5f;
+    [SerializeField]
+    GameObject goldPrefab;
+    [SerializeField]
+    int coin = 1;
     protected override void Start()
     {
         base.Start();
@@ -51,6 +55,33 @@ public class Enemy :AI
             }
         }
         
+    }
+    public override void death()
+    {
+       
+        if (health)
+        {
+            if (health.getCurrentHealth() <= 0)
+            {
+                if (explosive_fx)
+                {
+                    explosive_fx.SetActive(true);
+                }
+                if (tankSound)
+                {
+                    if (soundclip[2])
+                    {
+                        tankSound.PlayOneShot(soundclip[2]);
+                    }
+                }
+                SpawnGold();
+                Destroy(gameObject, soundclip[2].length);
+            }
+        }
+        if(agent)
+        {
+            agent.enabled = false;
+        }
     }
     protected virtual void chasePlayer()
     {
@@ -108,7 +139,18 @@ public class Enemy :AI
         }
         
     }
-
-
-
+    protected virtual void SpawnGold()
+    {
+        if(goldPrefab)
+        {
+            var gold =  (GameObject)Instantiate(goldPrefab, transform.position, goldPrefab.transform.rotation);
+            {
+                if(gold.GetComponent<GoldCoin>())
+                {
+                    gold.GetComponent<GoldCoin>().setCoin(coin);
+                }
+            }
+        }
+    }
+   
 }

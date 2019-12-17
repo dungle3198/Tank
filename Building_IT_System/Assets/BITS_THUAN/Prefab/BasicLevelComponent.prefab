@@ -1045,6 +1045,7 @@ MonoBehaviour:
   NextLevelButton: {fileID: 1581736972}
   GS: {fileID: 0}
   pauseScreen: {fileID: 4236113359147422021}
+  coin: 0
 --- !u!1 &4729427681593519205
 GameObject:
   m_ObjectHideFlags: 0
@@ -1915,7 +1916,7 @@ PrefabInstance:
     - target: {fileID: 1953375662701636456, guid: c6ca73508bef843498ece1bf315b7e05,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1953375662701636456, guid: c6ca73508bef843498ece1bf315b7e05,
         type: 3}
@@ -1962,11 +1963,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1064875514846504646, guid: c6ca73508bef843498ece1bf315b7e05,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2129602443733291481, guid: c6ca73508bef843498ece1bf315b7e05,
         type: 3}
       propertyPath: m_RootOrder
@@ -1991,6 +1987,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Drag
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953375662701636457, guid: c6ca73508bef843498ece1bf315b7e05,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 5577777865914544414, guid: c6ca73508bef843498ece1bf315b7e05,
         type: 3}

@@ -23,6 +23,8 @@ public class LevelSystem : MonoBehaviour
     GameSystem GS;
     [SerializeField]
     GameObject pauseScreen;
+    [SerializeField]
+    int coin; 
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +44,7 @@ public class LevelSystem : MonoBehaviour
         if(FindObjectOfType<GameSystem>())
         {
             GS = FindObjectOfType<GameSystem>();
+            coin = GS.m_Gold;
         }
     }
 
@@ -86,6 +89,7 @@ public class LevelSystem : MonoBehaviour
                         Time.timeScale = 0;
                         if (completed)
                         {
+                            
                             if (ResultText)
                             {
                                 ResultText.text = gameObject.scene.name +
@@ -99,7 +103,9 @@ public class LevelSystem : MonoBehaviour
                                     if (GS.currentLevelIndex == GS.levels.Count - 1)
                                     {
                                         NextLevelButton.SetActive(false);
+                                        
                                     }
+                                    GS.SetCoin(coin);
                                 }
 
                             }
@@ -157,6 +163,10 @@ public class LevelSystem : MonoBehaviour
     {
         completed = true;
         Result(true);
+    }
+    public void setcoin(int amount)
+    {
+        coin += amount;
     }
     public void SetPauseScreen()
     {
