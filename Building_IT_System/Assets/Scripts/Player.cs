@@ -13,6 +13,8 @@ public class Player : Tank
     private HUD hud;
     [SerializeField]
     private LevelSystem LS;
+    [SerializeField]
+    private GameSystem GS;
 
     [SerializeField]
     List<Gun> guns;
@@ -33,7 +35,16 @@ public class Player : Tank
         {
             LS = FindObjectOfType<LevelSystem>();
         }
-        
+        if(FindObjectOfType<GameSystem>())
+        {
+            GS = FindObjectOfType<GameSystem>();
+            if(health)
+            {
+                print("i gain health");
+                float newMaxHealth = health.getMaxHealth() + GS.m_Health * 25;
+                health.setMaxHealth(newMaxHealth);
+            }
+        }
         Cursor.lockState = CursorLockMode.Locked;
     }
 

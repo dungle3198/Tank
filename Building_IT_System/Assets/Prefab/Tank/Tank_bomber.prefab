@@ -198,6 +198,7 @@ MonoBehaviour:
   currentAmmo: 0
   maxAmmo: 10
   damage: 10
+  GS: {fileID: 0}
   shootclip: {fileID: 8300000, guid: 809c57c446741a14c9c757bd299a5b6d, type: 3}
   sound: {fileID: 8206367407724876194}
 --- !u!82 &8206367407724876194
@@ -346,7 +347,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8437299550915071585}
   serializedVersion: 2
-  m_Mass: 0.0000001
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -505,6 +506,7 @@ MonoBehaviour:
   currentAmmo: 0
   maxAmmo: 5
   damage: 10
+  GS: {fileID: 0}
   shootclip: {fileID: 8300000, guid: 809c57c446741a14c9c757bd299a5b6d, type: 3}
   sound: {fileID: 0}
 --- !u!82 &8437299550939470207

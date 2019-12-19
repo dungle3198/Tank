@@ -75,7 +75,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 0.5, z: 2}
+  m_Size: {x: 2, y: 1, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5810841902950158593
 GameObject:
@@ -141,11 +141,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 70
+  default_damage: 0
   currentTeam: 0
   fX: {fileID: 1557180842046014684}
   mesh: {fileID: 0}
   sound: {fileID: 0}
   explosive_clip: {fileID: 8300000, guid: 6c7761263915e5443be74b84ba80862a, type: 3}
+  GS: {fileID: 0}
 --- !u!1001 &1344887152825687529
 PrefabInstance:
   m_ObjectHideFlags: 0

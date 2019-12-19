@@ -15,7 +15,8 @@ public class Gun : MonoBehaviour
     protected int maxAmmo = 10;
     [SerializeField]
     protected float damage = 10;
-
+    [SerializeField]
+    private GameSystem GS;
 
     [SerializeField]
     protected AudioClip shootclip;
@@ -24,12 +25,20 @@ public class Gun : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentAmmo = maxAmmo;
+        
         if(GetComponent<AudioSource>())
         {
             sound = GetComponent<AudioSource>();
         }
-        
+        if (FindObjectOfType<GameSystem>())
+        {
+            GS = FindObjectOfType<GameSystem>();
+            if(currentTeam == Tank.Team.player)
+            {
+                maxAmmo += maxAmmo * GS.m_Ammo;
+            }
+        }
+        currentAmmo = maxAmmo;
     }
     public float getAmmoPercentage()
     {
@@ -58,10 +67,14 @@ public class Gun : MonoBehaviour
                 }
             }
             currentAmmo--;
+            if(currentAmmo == 0 )
+            {
+                StartCoroutine(Reload());
+            }
         }
         else
         {
-            StartCoroutine(Reload());
+            
         }
     }
     public void setCurrentTeam(Tank.Team team)
@@ -88,5 +101,13 @@ public class Gun : MonoBehaviour
     public int getcurrentAmmo()
     {
         return currentAmmo;
+    }
+    public int getMaxAmmo()
+    {
+        return maxAmmo;
+    }
+    protected void OnDisable()
+    {
+        currentAmmo = maxAmmo;
     }
 }

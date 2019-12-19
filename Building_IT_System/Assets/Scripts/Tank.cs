@@ -26,9 +26,11 @@ public class Tank : MonoBehaviour
     protected Collider col;
     [SerializeField]
     protected GameObject model;
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
+         
         if (GetComponent<Rigidbody>())
         {
             rB = GetComponent<Rigidbody>();

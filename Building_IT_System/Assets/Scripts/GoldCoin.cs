@@ -43,7 +43,7 @@ public class GoldCoin : MonoBehaviour
             {
                 audio.PlayOneShot(list[0]);
             }
-            Destroy(this.gameObject, 1);
+            Destroy(this.gameObject, 0.25f);
         }
     }
     public void setCoin(int amount)

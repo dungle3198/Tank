@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BITS_THUAN/Level/Level 3/Level 3.unity
     guid: 73f61e86f74ac1842a2d4c16d20fa439
+  - enabled: 1
+    path: Assets/BITS_DUNG/Test_boss.unity
+    guid: 762822d574120c742a33e086e65da52d
   m_configObjects: {}

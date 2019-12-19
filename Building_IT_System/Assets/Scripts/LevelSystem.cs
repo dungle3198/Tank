@@ -93,7 +93,7 @@ public class LevelSystem : MonoBehaviour
                             
                             if (ResultText)
                             {
-                                ResultText.text = gameObject.scene.name +
+                                ResultText.text = "LEVEL " + gameObject.scene.buildIndex.ToString() +
                                     "\nYOU HAVE COMPLETED THE LEVEL!";
                             }
                             if (NextLevelButton)
@@ -120,7 +120,7 @@ public class LevelSystem : MonoBehaviour
                         {
                             if (ResultText)
                             {
-                                ResultText.text = gameObject.scene.name + "\nYOU ARE DEATH, YOU WANT TO RETRY?";
+                                ResultText.text = "LEVEL " + gameObject.scene.buildIndex.ToString() + "\nYOU ARE DEAD, YOU WANT TO RETRY?";
                             }
                             if (RetryButton)
                             {

@@ -82,6 +82,10 @@ public class Enemy :AI
                 {
                     explosive_fx.SetActive(true);
                 }
+                if(col)
+                {
+                    col.enabled = false;
+                }
                 SpawnGold();
                 Destroy(gameObject, soundclip[2].length);
             }
@@ -151,7 +155,7 @@ public class Enemy :AI
     {
         if(goldPrefab)
         {
-            var gold =  (GameObject)Instantiate(goldPrefab, transform.position, goldPrefab.transform.rotation);
+            var gold =  (GameObject)Instantiate(goldPrefab, transform.position + new Vector3(0,1,0 ),goldPrefab.transform.rotation);
             {
                 if(gold.GetComponent<GoldCoin>())
                 {

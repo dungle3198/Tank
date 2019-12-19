@@ -20,7 +20,14 @@ public class Rocket_Bullet : Bullet {
             sound = gameObject.AddComponent<AudioSource>();
             sound.playOnAwake = false;
         }
-
+        if (FindObjectOfType<GameSystem>())
+        {
+            GS = FindObjectOfType<GameSystem>();
+            if (currentTeam == Tank.Team.player)
+            {
+                damage += damage * GS.m_Damage;
+            }
+        }
         Destroy(this.gameObject, 5);
     }
     private void Update()

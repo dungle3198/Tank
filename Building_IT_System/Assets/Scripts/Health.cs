@@ -22,6 +22,17 @@ public class Health : MonoBehaviour
     {
         return this.currentHealth;
     }
+    public float setMaxHealth(float amount)
+    {
+        maxHealth = amount;
+        GainFullHealth();
+        return maxHealth;
+
+    }
+    public float getMaxHealth()
+    {
+        return maxHealth;
+    }
     public float getHealthPercentage()
     {
         return (currentHealth / maxHealth);

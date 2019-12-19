@@ -92,11 +92,16 @@ public class RocketGun : Gun
                
             }
             currentAmmo--;
+            if(currentAmmo == 0)
+            {
+                Reload();
+                StartCoroutine(Reload());
+            }
             Landmark.localPosition = originalPos;
         }
         else
         {
-            StartCoroutine(Reload());
+           
         }
     }
     private void OnDisable()
@@ -105,6 +110,7 @@ public class RocketGun : Gun
         {
             Landmark.gameObject.SetActive(false);
         }
+        currentAmmo = maxAmmo;
     }
     private void OnEnable()
     {

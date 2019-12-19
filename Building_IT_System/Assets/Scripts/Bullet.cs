@@ -6,12 +6,14 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField]
     protected float damage;
+    public float default_damage;
     protected Rigidbody rB;
     public Tank.Team currentTeam;
     public GameObject fX;
     public GameObject mesh;
     public AudioSource sound;
     public AudioClip explosive_clip;
+    public GameSystem GS;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +26,14 @@ public class Bullet : MonoBehaviour
             sound = gameObject.AddComponent<AudioSource>();
             sound.playOnAwake = false;
         }
-
+        if (FindObjectOfType<GameSystem>())
+        {
+            GS = FindObjectOfType<GameSystem>();
+            if(currentTeam == Tank.Team.player)
+            {
+                damage += damage * GS.m_Damage;
+            }
+        }
         Destroy(this.gameObject, 5);
     }
     public void setCurrentTeam(Tank.Team team)
@@ -47,7 +56,7 @@ public class Bullet : MonoBehaviour
             }
             explode();
         }
-        
+        explode();
     }
     public void explode()
     {

@@ -56,6 +56,10 @@ public class SniperGun : Gun
                 }
             }
             currentAmmo--;
+            if (currentAmmo == 0)
+            {
+                StartCoroutine(Reload());
+            }
         }
         else
         {

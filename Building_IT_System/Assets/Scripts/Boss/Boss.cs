@@ -165,7 +165,7 @@ public class Boss : Enemy
             {
                 stage_status = substage.Move;
             }
-            else if (health.getHealthPercentage() * 100 < 75 && health.getHealthPercentage() * 100 > 25)
+            else if (health.getHealthPercentage() * 100 < 75 && health.getHealthPercentage() * 100 > 0)
             {
                 stage_status = substage.shootAWP;
             }

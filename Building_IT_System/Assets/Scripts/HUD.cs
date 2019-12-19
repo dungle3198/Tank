@@ -35,7 +35,7 @@ public class HUD : MonoBehaviour
                 {
                     if (player.getGun().getcurrentAmmo() > 0)
                     {
-                        ammoText.text = player.getGun().getcurrentAmmo().ToString();
+                        ammoText.text = player.getGun().getcurrentAmmo().ToString() + " / " + player.getGun().getMaxAmmo().ToString();
                     }
                     else
                     {
@@ -54,7 +54,7 @@ public class HUD : MonoBehaviour
             {
                 if (player.GetHealth())
                 {
-                    healthText.text = (player.GetHealth().getHealthPercentage() * 100).ToString() + " /100";
+                    healthText.text = (player.GetHealth().getCurrentHealth()).ToString() + " / " + player.GetHealth().getMaxHealth().ToString();
                 }
             }
             if (Healthbar)
