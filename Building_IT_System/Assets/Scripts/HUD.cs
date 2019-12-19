@@ -6,6 +6,8 @@ public class HUD : MonoBehaviour
 {
     [SerializeField] private Text healthText;
     [SerializeField] private Text ammoText;
+    [SerializeField] Image Healthbar;
+    [SerializeField] Image Ammobar;
 
     Player player;
     private void Start()
@@ -25,7 +27,7 @@ public class HUD : MonoBehaviour
     }
     private void Update()
     {
-        if(player)
+        if (player)
         {
             if (ammoText)
             {
@@ -41,11 +43,25 @@ public class HUD : MonoBehaviour
                     }
                 }
             }
-            if(healthText)
+            if (Ammobar)
             {
-                if(player.GetHealth())
+                if (player.getGun())
+                {
+                    Ammobar.fillAmount = player.getGun().getAmmoPercentage();
+                }
+            }
+            if (healthText)
+            {
+                if (player.GetHealth())
                 {
                     healthText.text = (player.GetHealth().getHealthPercentage() * 100).ToString() + " /100";
+                }
+            }
+            if (Healthbar)
+            {
+                if (player.GetHealth())
+                {
+                    Healthbar.fillAmount = player.GetHealth().getHealthPercentage();
                 }
             }
         }

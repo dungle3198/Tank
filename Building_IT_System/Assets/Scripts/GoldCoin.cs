@@ -29,10 +29,9 @@ public class GoldCoin : MonoBehaviour
     }
     private void Update()
     {
-        if(modeling)
-        {
-            modeling.transform.Rotate(0, 1, 0);
-        }
+       
+        transform.Rotate(1, 0, 0);
+        
     }
     private void OnTriggerEnter(Collider other)
     {
