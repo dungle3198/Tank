@@ -197,8 +197,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 0.9, z: 3.9375}
-  m_Center: {x: 0, y: 0.5, z: 0}
+  m_Size: {x: 2, y: 2, z: 3.9375}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!195 &2452974514365492106
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -256,12 +256,15 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 98da624c5159744dab3ff081607af703, type: 3}
   - {fileID: 8300000, guid: 0628ff1229ff244ba85a4f7d3a3fdabf, type: 3}
   - {fileID: 8300000, guid: 598390c67066db94e979331388d4b306, type: 3}
+  rB: {fileID: 0}
+  col: {fileID: 0}
+  model: {fileID: 5857901206023168948}
   player: {fileID: 0}
   distance: 25
   offSet: 15
   agent: {fileID: 0}
-  chasingDistance: 25
-  attackDistance: 15
+  chasingDistance: 50
+  attackDistance: 40
   shootTime: 0
   interval: 1.5
   goldPrefab: {fileID: 8735499789106552023, guid: 861d47dadf80ec148a31eaf0b1ac62a8,
@@ -312,7 +315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentTeam: 0
-  bulletPrefab: {fileID: 5810841902950158593, guid: 8a492aea37ee64c4f9d2f13bf97d4117,
+  bulletPrefab: {fileID: 5810841902950158593, guid: d4f5d9df08c5ab84ebf6612e539b352a,
     type: 3}
   shootingSpeed: 100
   currentAmmo: 0
@@ -696,6 +699,12 @@ PrefabInstance:
     - {fileID: 65309250439363494, guid: 8d94e0220cbbe6b46b7ec081a895e03d, type: 3}
     - {fileID: 135441145290459818, guid: 8d94e0220cbbe6b46b7ec081a895e03d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8d94e0220cbbe6b46b7ec081a895e03d, type: 3}
+--- !u!1 &5857901206023168948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1529818792691790, guid: 8d94e0220cbbe6b46b7ec081a895e03d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5858652330062408698}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5863174066246852844 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4557472493685526, guid: 8d94e0220cbbe6b46b7ec081a895e03d,

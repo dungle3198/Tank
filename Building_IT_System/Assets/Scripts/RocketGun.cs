@@ -86,7 +86,7 @@ public class RocketGun : Gun
 
                         //bullet.GetComponent<Rigidbody>().AddForce(transform.forward * force + player.GetRigidbody().velocity, ForceMode.Impulse);
                         bullet.GetComponent<Bullet>().setCurrentTeam(this.currentTeam);
-                        bullet.GetComponent<Bullet>().setDamage(damage);
+                        //bullet.GetComponent<Bullet>().setDamage(damage);
                     }
                 }
                

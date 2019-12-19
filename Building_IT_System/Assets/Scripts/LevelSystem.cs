@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class LevelSystem : MonoBehaviour
 {
     [SerializeField]
@@ -46,6 +46,7 @@ public class LevelSystem : MonoBehaviour
             GS = FindObjectOfType<GameSystem>();
             coin = GS.m_Gold;
         }
+        SceneManager.SetActiveScene(this.gameObject.scene);
     }
 
     // Update is called once per frame
@@ -182,11 +183,13 @@ public class LevelSystem : MonoBehaviour
                         {
                             pauseScreen.SetActive(true);
                             Time.timeScale = 0;
+                            Cursor.lockState = CursorLockMode.None;
                         }
                         else
                         {
                             pauseScreen.SetActive(false);
                             Time.timeScale = 1;
+                            Cursor.lockState = CursorLockMode.Locked;
                         }
                     }
                 }

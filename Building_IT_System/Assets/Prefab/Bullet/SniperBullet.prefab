@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b1fec0f155231e48b373ad7b38ea38c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 70
+  damage: 30
   currentTeam: 0
   fX: {fileID: 1557180842046014684}
   mesh: {fileID: 7881488378297545033}

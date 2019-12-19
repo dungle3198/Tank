@@ -6,6 +6,8 @@ public class GoldCoin : MonoBehaviour
 {
     [SerializeField]
     protected int Amount = 1;
+    [SerializeField]
+    GameObject modeling;
     protected AudioSource audio;
     [SerializeField]
     protected List<AudioClip> list;
@@ -25,7 +27,13 @@ public class GoldCoin : MonoBehaviour
         }
         
     }
-
+    private void Update()
+    {
+        if(modeling)
+        {
+            modeling.transform.Rotate(0, 1, 0);
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if(other.GetComponent<Player>())

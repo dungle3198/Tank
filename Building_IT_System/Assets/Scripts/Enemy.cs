@@ -74,6 +74,14 @@ public class Enemy :AI
                         tankSound.PlayOneShot(soundclip[2]);
                     }
                 }
+                if (model)
+                {
+                    model.gameObject.SetActive(false);
+                }
+                if (explosive_fx)
+                {
+                    explosive_fx.SetActive(true);
+                }
                 SpawnGold();
                 Destroy(gameObject, soundclip[2].length);
             }

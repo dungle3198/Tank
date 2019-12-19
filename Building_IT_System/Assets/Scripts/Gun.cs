@@ -54,7 +54,7 @@ public class Gun : MonoBehaviour
                 {
                     bullet.GetComponent<Rigidbody>().velocity = transform.forward * shootingSpeed;
                     bullet.GetComponent<Bullet>().setCurrentTeam(this.currentTeam);
-                    bullet.GetComponent<Bullet>().setDamage(damage);
+                    //bullet.GetComponent<Bullet>().setDamage(damage);
                 }
             }
             currentAmmo--;

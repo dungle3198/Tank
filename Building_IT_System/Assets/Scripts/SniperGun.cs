@@ -52,7 +52,7 @@ public class SniperGun : Gun
                 {
                     bullet.GetComponent<Rigidbody>().velocity = transform.forward * shootingSpeed;
                     bullet.GetComponent<Bullet>().setCurrentTeam(this.currentTeam);
-                    bullet.GetComponent<Bullet>().setDamage(damage);
+                    
                 }
             }
             currentAmmo--;

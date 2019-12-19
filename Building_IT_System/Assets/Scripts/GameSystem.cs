@@ -95,6 +95,7 @@ public class GameSystem : MonoBehaviour
         SceneManager.UnloadSceneAsync(levels[currentLevelIndex]);
         string scene_name = levels[currentLevelIndex];
         SceneManager.LoadScene(scene_name, LoadSceneMode.Additive);
+        
 
     }
     public void SetCoin(int amount)

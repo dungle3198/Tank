@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77cc99e0a8193f46a75ac7b85f8fe32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 30
+  damage: 5
   currentTeam: 0
   fX: {fileID: 3296634477244062204}
   mesh: {fileID: 7984616929206999308}

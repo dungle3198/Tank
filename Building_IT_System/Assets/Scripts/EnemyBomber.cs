@@ -65,4 +65,5 @@ public class EnemyBomber : Enemy
             other.GetComponent<Player>().applyDamge(selfdamage,Team.enemy);
         }
     }
+   
 }

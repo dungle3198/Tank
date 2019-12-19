@@ -20,7 +20,12 @@ public class Tank : MonoBehaviour
     protected AudioSource tankSound;
     [SerializeField]
     protected List<AudioClip> soundclip;
+    [SerializeField]
     protected Rigidbody rB;
+    [SerializeField]
+    protected Collider col;
+    [SerializeField]
+    protected GameObject model;
     // Start is called before the first frame update
     protected virtual void Start()
     {
@@ -42,6 +47,10 @@ public class Tank : MonoBehaviour
             tankSound = gameObject.AddComponent<AudioSource>();
             tankSound.playOnAwake = false;
             tankSound.maxDistance = 30;
+        }
+        if(GetComponent<Collider>())
+        {
+            col = GetComponent<Collider>();
         }
     }
     public virtual void applyDamge(float damage,Team oppositeTeam)
@@ -89,10 +98,7 @@ public class Tank : MonoBehaviour
         {
             if(health.getCurrentHealth() <= 0)
             {
-                if(explosive_fx)
-                {
-                    explosive_fx.SetActive(true);
-                }
+                
                 if (tankSound)
                 {
                     if (soundclip[2])
@@ -100,6 +106,11 @@ public class Tank : MonoBehaviour
                         tankSound.PlayOneShot(soundclip[2]);
                     }
                 }
+                if(col)
+                {
+                    col.enabled = false;
+                }
+                
                 Destroy(gameObject, soundclip[2].length);
             }
         }
