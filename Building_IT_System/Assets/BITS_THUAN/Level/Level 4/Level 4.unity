@@ -119,13 +119,19 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 734e8ffe35d1ada49a6dc9c791e496fa, type: 2}
+--- !u!4 &44890238 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
+    type: 3}
+  m_PrefabInstance: {fileID: 1871185736}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &48637172
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 920444361}
     m_Modifications:
     - target: {fileID: 7525094300245726561, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
@@ -140,7 +146,7 @@ PrefabInstance:
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000916
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
@@ -170,7 +176,7 @@ PrefabInstance:
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
@@ -201,8 +207,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1372062625}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &59681817
-MeshCollider:
+--- !u!65 &59681817
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -211,10 +217,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &99073627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -225,6 +230,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -296,8 +305,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 99073627}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &99073630
-MeshCollider:
+--- !u!65 &99073630
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -306,16 +315,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &102642606
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 288432782}
     m_Modifications:
     - target: {fileID: 2452974514365492103, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -330,7 +338,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000916
+      value: 1.96
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -340,7 +348,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -350,7 +358,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -360,7 +368,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -391,8 +399,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 136856132}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &124858009
-MeshCollider:
+--- !u!65 &124858009
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -401,16 +409,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &127710507
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1573589340}
     m_Modifications:
     - target: {fileID: 864626897566222443, guid: c652d3882c9733c44b79acb0b4db4f87,
         type: 3}
@@ -425,7 +432,7 @@ PrefabInstance:
     - target: {fileID: 858275673291662101, guid: c652d3882c9733c44b79acb0b4db4f87,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000917
+      value: 2.8009167
       objectReference: {fileID: 0}
     - target: {fileID: 858275673291662101, guid: c652d3882c9733c44b79acb0b4db4f87,
         type: 3}
@@ -455,7 +462,7 @@ PrefabInstance:
     - target: {fileID: 858275673291662101, guid: c652d3882c9733c44b79acb0b4db4f87,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 858275673291662101, guid: c652d3882c9733c44b79acb0b4db4f87,
         type: 3}
@@ -484,6 +491,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -555,8 +566,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 133043646}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &133043649
-MeshCollider:
+--- !u!65 &133043649
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -565,10 +576,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000029, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920928, y: 0.50022626, z: -0.0006736219}
 --- !u!1 &134208978 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589,
@@ -581,8 +591,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 576953167}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &134208980
-MeshCollider:
+--- !u!65 &134208980
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -591,10 +601,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &136856132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -605,6 +614,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -674,6 +687,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -745,8 +762,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 151386982}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &151386985
-MeshCollider:
+--- !u!65 &151386985
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -755,10 +772,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
+--- !u!4 &161613973 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1661613780}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &166025097 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589,
@@ -771,8 +793,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1344239770}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &166025099
-MeshCollider:
+--- !u!65 &166025099
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -781,16 +803,48 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
+--- !u!1 &167668387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 167668388}
+  m_Layer: 0
+  m_Name: Enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &167668388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167668387}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1504299957}
+  - {fileID: 920444361}
+  - {fileID: 288432782}
+  m_Father: {fileID: 1573589340}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &180356253
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1504299957}
     m_Modifications:
     - target: {fileID: 2386871685786083569, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -805,7 +859,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.067957
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -835,7 +889,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -860,8 +914,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 795814514}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &184509330
-MeshCollider:
+--- !u!65 &184509330
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -870,16 +924,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &196338485
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1504299957}
     m_Modifications:
     - target: {fileID: 2386871685786083569, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -894,7 +947,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.067957
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -924,7 +977,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -953,6 +1006,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1024,8 +1081,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 199067793}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &199067796
-MeshCollider:
+--- !u!65 &199067796
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1034,10 +1091,21 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000029, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920928, y: 0.50022626, z: -0.0006736219}
+--- !u!4 &225994680 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
+    type: 3}
+  m_PrefabInstance: {fileID: 102642606}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &233321752 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
+    type: 3}
+  m_PrefabInstance: {fileID: 882137096}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &238118860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1048,6 +1116,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1119,8 +1191,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 238118860}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &238118863
-MeshCollider:
+--- !u!65 &238118863
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1129,16 +1201,21 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
+--- !u!4 &251802758 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
+    type: 3}
+  m_PrefabInstance: {fileID: 1215133398}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &259855991
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 920444361}
     m_Modifications:
     - target: {fileID: 7525094300245726561, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
@@ -1153,7 +1230,7 @@ PrefabInstance:
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000916
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
@@ -1183,7 +1260,7 @@ PrefabInstance:
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
@@ -1207,7 +1284,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1504299957}
     m_Modifications:
     - target: {fileID: 2386871685786083569, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -1222,7 +1299,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.067957
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -1252,7 +1329,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -1271,6 +1348,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2337373a981884c47b52d825563e7bbe, type: 3}
+--- !u!1 &288432781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 288432782}
+  m_Layer: 0
+  m_Name: Turrets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &288432782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288432781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 225994680}
+  - {fileID: 251802758}
+  - {fileID: 1319362632}
+  - {fileID: 233321752}
+  - {fileID: 1803540109}
+  - {fileID: 345585151}
+  - {fileID: 1342236775}
+  m_Father: {fileID: 167668388}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &306720327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1281,6 +1395,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1352,8 +1470,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 306720327}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &306720330
-MeshCollider:
+--- !u!65 &306720330
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1362,16 +1480,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &307903971
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1504299957}
     m_Modifications:
     - target: {fileID: 2386871685786083569, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -1386,7 +1503,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.067957
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -1416,7 +1533,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -1435,6 +1552,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2337373a981884c47b52d825563e7bbe, type: 3}
+--- !u!4 &345585151 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
+    type: 3}
+  m_PrefabInstance: {fileID: 2012568594}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &363450220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1445,6 +1568,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1504,6 +1631,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+--- !u!4 &363688283 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1097167415}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &374228997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1514,6 +1647,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1585,8 +1722,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 374228997}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &374229000
-MeshCollider:
+--- !u!65 &374229000
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1595,10 +1732,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
+--- !u!4 &384005898 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 435128868}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &399809125 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589,
@@ -1611,8 +1753,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1554138674}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &399809127
-MeshCollider:
+--- !u!65 &399809127
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1621,18 +1763,17 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1 &411888471 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589,
     type: 3}
   m_PrefabInstance: {fileID: 2003705170}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &411888474
-MeshCollider:
+--- !u!65 &411888474
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1641,16 +1782,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &435128868
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1504299957}
     m_Modifications:
     - target: {fileID: 2386871685786083569, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -1665,7 +1805,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.067957
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -1695,7 +1835,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -1724,6 +1864,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1794,7 +1938,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 288432782}
     m_Modifications:
     - target: {fileID: 2452974514365492103, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -1809,7 +1953,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000916
+      value: 1.96
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -1819,7 +1963,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -1829,7 +1973,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -1839,7 +1983,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -1868,6 +2012,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1939,8 +2087,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 499491962}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &499491965
-MeshCollider:
+--- !u!65 &499491965
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1949,16 +2097,21 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
+--- !u!4 &523118070 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 702306620}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &525608637
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1504299957}
     m_Modifications:
     - target: {fileID: 2386871685786083569, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -1973,7 +2126,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.067957
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -2003,7 +2156,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -2027,7 +2180,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1547485646}
     m_Modifications:
     - target: {fileID: 4332586439546169513, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -2037,22 +2190,22 @@ PrefabInstance:
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 300
+      value: 79.399994
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.500916
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 231.02673
+      value: 17.12674
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -2062,7 +2215,7 @@ PrefabInstance:
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -2072,7 +2225,7 @@ PrefabInstance:
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -2106,6 +2259,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2175,6 +2332,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2246,8 +2407,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 591897382}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &591897385
-MeshCollider:
+--- !u!65 &591897385
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2256,10 +2417,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &606397710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2270,6 +2430,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2341,8 +2505,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 606397710}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &606397713
-MeshCollider:
+--- !u!65 &606397713
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2351,10 +2515,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &610793639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2365,6 +2528,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2441,6 +2608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half
       objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
       value: 304
@@ -2516,6 +2687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
       value: 313.9
@@ -2586,8 +2761,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 634793372}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &634793375
-MeshCollider:
+--- !u!65 &634793375
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2596,16 +2771,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &635225559
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1846366854}
     m_Modifications:
     - target: {fileID: 1577258844404356860, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
@@ -2620,7 +2794,7 @@ PrefabInstance:
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.050915
+      value: 2.850914
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
@@ -2630,17 +2804,17 @@ PrefabInstance:
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
@@ -2650,7 +2824,7 @@ PrefabInstance:
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
@@ -2699,6 +2873,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2770,8 +2948,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 638633708}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &638633711
-MeshCollider:
+--- !u!65 &638633711
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2780,10 +2958,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &649171384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2794,6 +2971,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2865,8 +3046,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 649171384}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &649171387
-MeshCollider:
+--- !u!65 &649171387
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2875,10 +3056,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1 &654366675
 GameObject:
   m_ObjectHideFlags: 0
@@ -2902,8 +3082,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654366675}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 624033933}
@@ -2966,15 +3146,15 @@ Transform:
   - {fileID: 1148304300}
   - {fileID: 833302511}
   - {fileID: 795496412}
-  m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_Father: {fileID: 1573589340}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &702306620
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1504299957}
     m_Modifications:
     - target: {fileID: 2386871685786083569, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -2989,7 +3169,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.067957
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -3019,7 +3199,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -3038,6 +3218,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2337373a981884c47b52d825563e7bbe, type: 3}
+--- !u!4 &712808468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 196338485}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &717171743 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 307903971}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &726347737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3048,6 +3240,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3119,8 +3315,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 726347737}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &726347740
-MeshCollider:
+--- !u!65 &726347740
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3129,16 +3325,27 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
+--- !u!4 &729001521 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
+    type: 3}
+  m_PrefabInstance: {fileID: 573600862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &730937762 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
+    type: 3}
+  m_PrefabInstance: {fileID: 635225559}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &746046283
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1846366854}
     m_Modifications:
     - target: {fileID: 1577258844404356860, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
@@ -3153,7 +3360,7 @@ PrefabInstance:
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.050915
+      value: 2.850914
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
@@ -3163,17 +3370,17 @@ PrefabInstance:
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
@@ -3183,7 +3390,7 @@ PrefabInstance:
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
@@ -3252,6 +3459,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3323,8 +3534,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 795496411}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &795496414
-MeshCollider:
+--- !u!65 &795496414
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3333,10 +3544,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &795814514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3347,6 +3557,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3423,6 +3637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
       value: 221.2
@@ -3493,8 +3711,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 833246875}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &833246878
-MeshCollider:
+--- !u!65 &833246878
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3503,10 +3721,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &833302510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3517,6 +3734,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3588,8 +3809,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 833302510}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &833302513
-MeshCollider:
+--- !u!65 &833302513
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3598,16 +3819,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &841780559
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 920444361}
     m_Modifications:
     - target: {fileID: 7525094300245726561, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
@@ -3622,7 +3842,7 @@ PrefabInstance:
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000916
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
@@ -3652,7 +3872,7 @@ PrefabInstance:
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
@@ -3681,6 +3901,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3752,8 +3976,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 851067266}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &851067269
-MeshCollider:
+--- !u!65 &851067269
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3762,16 +3986,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000036, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.0000001192093, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &882137096
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 288432782}
     m_Modifications:
     - target: {fileID: 2452974514365492103, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -3786,7 +4009,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000916
+      value: 1.96
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -3796,7 +4019,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -3806,7 +4029,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -3816,7 +4039,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -3847,8 +4070,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 363450220}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &907298014
-MeshCollider:
+--- !u!65 &907298014
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3857,10 +4080,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &915782702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3871,6 +4093,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3942,8 +4168,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 915782702}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &915782705
-MeshCollider:
+--- !u!65 &915782705
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3952,16 +4178,49 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
+--- !u!1 &920444360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 920444361}
+  m_Layer: 0
+  m_Name: NormalEnemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &920444361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920444360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1708020594}
+  - {fileID: 1086490478}
+  - {fileID: 1194351317}
+  - {fileID: 1056782072}
+  m_Father: {fileID: 167668388}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &944614529
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1547485646}
     m_Modifications:
     - target: {fileID: 4332586439546169513, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -3971,22 +4230,22 @@ PrefabInstance:
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 235
+      value: 14.399994
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.500916
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 238.2
+      value: 24.300003
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -3996,7 +4255,7 @@ PrefabInstance:
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -4006,7 +4265,7 @@ PrefabInstance:
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -4040,6 +4299,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4116,6 +4379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
       value: 277.7
@@ -4186,8 +4453,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 992860979}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &992860982
-MeshCollider:
+--- !u!65 &992860982
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4196,10 +4463,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &1053853995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4210,6 +4476,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4281,8 +4551,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1053853995}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1053853998
-MeshCollider:
+--- !u!65 &1053853998
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4291,10 +4561,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &1056378695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4305,6 +4574,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4376,8 +4649,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1056378695}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1056378698
-MeshCollider:
+--- !u!65 &1056378698
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4386,10 +4659,21 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
+--- !u!4 &1056782072 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
+    type: 3}
+  m_PrefabInstance: {fileID: 48637172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1071785656 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1408707423}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1085970390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4400,6 +4684,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4471,8 +4759,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1085970390}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1085970393
-MeshCollider:
+--- !u!65 &1085970393
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4481,16 +4769,21 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
+--- !u!4 &1086490478 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
+    type: 3}
+  m_PrefabInstance: {fileID: 841780559}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1097167415
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1504299957}
     m_Modifications:
     - target: {fileID: 2386871685786083569, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -4505,7 +4798,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.067957
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -4535,7 +4828,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -4564,6 +4857,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4635,8 +4932,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1097805347}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1097805350
-MeshCollider:
+--- !u!65 &1097805350
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4645,18 +4942,17 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1 &1124720124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589,
     type: 3}
   m_PrefabInstance: {fileID: 624033932}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1124720127
-MeshCollider:
+--- !u!65 &1124720127
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4665,10 +4961,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000029, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920928, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &1148304299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4679,6 +4974,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4750,8 +5049,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1148304299}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1148304302
-MeshCollider:
+--- !u!65 &1148304302
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4760,16 +5059,21 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
+--- !u!4 &1194351317 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
+    type: 3}
+  m_PrefabInstance: {fileID: 1594170523}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1215133398
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 288432782}
     m_Modifications:
     - target: {fileID: 2452974514365492103, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -4784,7 +5088,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000916
+      value: 1.96
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -4794,7 +5098,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -4804,7 +5108,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -4814,7 +5118,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -4833,6 +5137,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c72fd2176aaad9343a3bdf2ca01e3a04, type: 3}
+--- !u!4 &1270664917 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 268450958}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1281276290
 GameObject:
   m_ObjectHideFlags: 0
@@ -4922,7 +5232,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 71.014, y: -81.068, z: -56.705}
 --- !u!1001 &1315692294
 PrefabInstance:
@@ -4934,6 +5244,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4999,6 +5313,30 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1315692294}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1316227214 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
+    type: 3}
+  m_PrefabInstance: {fileID: 944614529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1319362632 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
+    type: 3}
+  m_PrefabInstance: {fileID: 1394210041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1322249765 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
+    type: 3}
+  m_PrefabInstance: {fileID: 1409736102}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1326438706 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1839444315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1337085566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5009,6 +5347,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5080,8 +5422,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1337085566}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1337085569
-MeshCollider:
+--- !u!65 &1337085569
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5090,10 +5432,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000029, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920928, y: 0.50022626, z: -0.0006736219}
+--- !u!4 &1342236775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
+    type: 3}
+  m_PrefabInstance: {fileID: 467836975}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1344239770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5104,6 +5451,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5168,7 +5519,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1504299957}
     m_Modifications:
     - target: {fileID: 2386871685786083569, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -5183,7 +5534,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.2
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -5213,7 +5564,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -5242,6 +5593,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5306,7 +5661,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1573589340}
     m_Modifications:
     - target: {fileID: 864626897566222443, guid: c652d3882c9733c44b79acb0b4db4f87,
         type: 3}
@@ -5321,7 +5676,7 @@ PrefabInstance:
     - target: {fileID: 858275673291662101, guid: c652d3882c9733c44b79acb0b4db4f87,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000917
+      value: 2.8009167
       objectReference: {fileID: 0}
     - target: {fileID: 858275673291662101, guid: c652d3882c9733c44b79acb0b4db4f87,
         type: 3}
@@ -5351,7 +5706,7 @@ PrefabInstance:
     - target: {fileID: 858275673291662101, guid: c652d3882c9733c44b79acb0b4db4f87,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 858275673291662101, guid: c652d3882c9733c44b79acb0b4db4f87,
         type: 3}
@@ -5375,7 +5730,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1547485646}
     m_Modifications:
     - target: {fileID: 4332586439546169513, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -5385,32 +5740,32 @@ PrefabInstance:
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 274.81442
+      value: 54.214417
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.500916
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 288.5
+      value: 74.600006
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -5420,7 +5775,7 @@ PrefabInstance:
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -5449,7 +5804,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 288432782}
     m_Modifications:
     - target: {fileID: 2452974514365492103, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -5464,7 +5819,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000916
+      value: 1.96
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -5474,7 +5829,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -5484,7 +5839,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -5494,7 +5849,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -5523,6 +5878,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5594,8 +5953,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1397856446}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1397856449
-MeshCollider:
+--- !u!65 &1397856449
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5604,16 +5963,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &1408707423
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1846366854}
     m_Modifications:
     - target: {fileID: 1577258844404356860, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
@@ -5628,7 +5986,7 @@ PrefabInstance:
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.050915
+      value: 2.850914
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
@@ -5638,17 +5996,17 @@ PrefabInstance:
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
@@ -5658,7 +6016,7 @@ PrefabInstance:
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
         type: 3}
@@ -5727,7 +6085,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1547485646}
     m_Modifications:
     - target: {fileID: 4332586439546169513, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -5737,32 +6095,32 @@ PrefabInstance:
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 343.13034
+      value: 122.530334
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.500916
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 245.6
+      value: 31.700012
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -5772,7 +6130,7 @@ PrefabInstance:
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -5796,12 +6154,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b22191d4c6117e74697a4382705abe43, type: 3}
+--- !u!4 &1418715966 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 525608637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1446568006
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 288432782}
     m_Modifications:
     - target: {fileID: 2452974514365492103, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -5816,7 +6180,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000916
+      value: 1.96
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -5826,7 +6190,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -5836,7 +6200,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -5846,7 +6210,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -5871,8 +6235,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 462418581}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1454983348
-MeshCollider:
+--- !u!65 &1454983348
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5881,10 +6245,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000043, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920933, y: 0.50022626, z: -0.00067362207}
+--- !u!4 &1460221469 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
+    type: 3}
+  m_PrefabInstance: {fileID: 1389141980}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1479537096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5895,6 +6264,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5966,8 +6339,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1479537096}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1479537099
-MeshCollider:
+--- !u!65 &1479537099
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5976,10 +6349,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &1485168554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5990,6 +6362,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6061,8 +6437,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1485168554}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1485168557
-MeshCollider:
+--- !u!65 &1485168557
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6071,10 +6447,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000029, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920928, y: 0.50022626, z: -0.0006736219}
+--- !u!4 &1489971399 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 180356253}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1498519443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6085,6 +6466,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6156,8 +6541,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1498519443}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1498519446
-MeshCollider:
+--- !u!65 &1498519446
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6166,10 +6551,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000029, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920928, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &1503381592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6180,6 +6564,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6251,8 +6639,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1503381592}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1503381595
-MeshCollider:
+--- !u!65 &1503381595
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6261,10 +6649,92 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
+--- !u!1 &1504299956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1504299957}
+  m_Layer: 0
+  m_Name: Bombers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1504299957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504299956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 523118070}
+  - {fileID: 1270664917}
+  - {fileID: 363688283}
+  - {fileID: 1326438706}
+  - {fileID: 717171743}
+  - {fileID: 1785086851}
+  - {fileID: 1418715966}
+  - {fileID: 712808468}
+  - {fileID: 1671379981}
+  - {fileID: 161613973}
+  - {fileID: 384005898}
+  - {fileID: 1489971399}
+  m_Father: {fileID: 167668388}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1525779401 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 858275673291662101, guid: c652d3882c9733c44b79acb0b4db4f87,
+    type: 3}
+  m_PrefabInstance: {fileID: 127710507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1547485645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1547485646}
+  m_Layer: 0
+  m_Name: Lasers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1547485646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547485645}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 220.6, y: 4.9222374, z: 213.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1322249765}
+  - {fileID: 44890238}
+  - {fileID: 1460221469}
+  - {fileID: 1316227214}
+  - {fileID: 729001521}
+  m_Father: {fileID: 1573589340}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1551549386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6275,6 +6745,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6346,8 +6820,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1551549386}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1551549389
-MeshCollider:
+--- !u!65 &1551549389
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6356,10 +6830,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &1554138674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6370,6 +6843,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6429,6 +6906,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+--- !u!1 &1573589339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1573589340}
+  m_Layer: 0
+  m_Name: environment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1573589340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573589339}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 167668388}
+  - {fileID: 2099338786}
+  - {fileID: 1525779401}
+  - {fileID: 1831502059}
+  - {fileID: 654366676}
+  - {fileID: 1846366854}
+  - {fileID: 1547485646}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1575184340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6439,6 +6953,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6503,7 +7021,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 920444361}
     m_Modifications:
     - target: {fileID: 7525094300245726561, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
@@ -6518,7 +7036,7 @@ PrefabInstance:
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000916
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
@@ -6548,7 +7066,7 @@ PrefabInstance:
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
         type: 3}
@@ -6567,6 +7085,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ea5c5ed92223fe498955c1513847956, type: 3}
+--- !u!4 &1605469237 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1577258844404356739, guid: 1e0a39d580bbe31418aa41fc84c7ccc9,
+    type: 3}
+  m_PrefabInstance: {fileID: 746046283}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1632619512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6577,6 +7101,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6648,8 +7176,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1632619512}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1632619515
-MeshCollider:
+--- !u!65 &1632619515
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6658,16 +7186,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000029, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920928, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &1661613780
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1504299957}
     m_Modifications:
     - target: {fileID: 2386871685786083569, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -6682,7 +7209,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.067957
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -6712,7 +7239,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -6731,12 +7258,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2337373a981884c47b52d825563e7bbe, type: 3}
+--- !u!4 &1671379981 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1675558807}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1675558807
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1504299957}
     m_Modifications:
     - target: {fileID: 2386871685786083569, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -6751,7 +7284,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.067957
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -6781,7 +7314,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -6812,8 +7345,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1575184340}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1688843889
-MeshCollider:
+--- !u!65 &1688843889
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6822,10 +7355,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &1695462150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6836,6 +7368,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6907,8 +7443,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1695462150}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1695462153
-MeshCollider:
+--- !u!65 &1695462153
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6917,10 +7453,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
+--- !u!4 &1708020594 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7525094300245726574, guid: 2ea5c5ed92223fe498955c1513847956,
+    type: 3}
+  m_PrefabInstance: {fileID: 259855991}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1716207205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6931,6 +7472,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7002,8 +7547,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1716207205}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1716207208
-MeshCollider:
+--- !u!65 &1716207208
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7012,10 +7557,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &1721858074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7026,6 +7570,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7097,8 +7645,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1721858074}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1721858077
-MeshCollider:
+--- !u!65 &1721858077
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7107,10 +7655,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &1730692468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7131,7 +7678,7 @@ PrefabInstance:
     - target: {fileID: 4729427681249271762, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000916
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4729427681249271762, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
         type: 3}
@@ -7178,6 +7725,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4572814143714505131, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572814143714505131, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3074019347151895557, guid: 71f1a8873ee359e4dae209cc1d8d55a1,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -7200,6 +7757,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7271,8 +7832,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1752126726}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1752126729
-MeshCollider:
+--- !u!65 &1752126729
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7281,16 +7842,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &1762831915
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1573589340}
     m_Modifications:
     - target: {fileID: 317268039510885014, guid: 21caaac6ca592ae40a33bb94ebbbde24,
         type: 3}
@@ -7305,7 +7865,7 @@ PrefabInstance:
     - target: {fileID: 317268039510885002, guid: 21caaac6ca592ae40a33bb94ebbbde24,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.12224
+      value: 4.9222374
       objectReference: {fileID: 0}
     - target: {fileID: 317268039510885002, guid: 21caaac6ca592ae40a33bb94ebbbde24,
         type: 3}
@@ -7315,7 +7875,7 @@ PrefabInstance:
     - target: {fileID: 317268039510885002, guid: 21caaac6ca592ae40a33bb94ebbbde24,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 317268039510885002, guid: 21caaac6ca592ae40a33bb94ebbbde24,
         type: 3}
@@ -7325,7 +7885,7 @@ PrefabInstance:
     - target: {fileID: 317268039510885002, guid: 21caaac6ca592ae40a33bb94ebbbde24,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 317268039510885002, guid: 21caaac6ca592ae40a33bb94ebbbde24,
         type: 3}
@@ -7335,7 +7895,7 @@ PrefabInstance:
     - target: {fileID: 317268039510885002, guid: 21caaac6ca592ae40a33bb94ebbbde24,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 317268039510885002, guid: 21caaac6ca592ae40a33bb94ebbbde24,
         type: 3}
@@ -7369,14 +7929,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21caaac6ca592ae40a33bb94ebbbde24, type: 3}
+--- !u!4 &1785086851 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1362215415}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1798111144 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589,
     type: 3}
   m_PrefabInstance: {fileID: 1315692294}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1798111147
-MeshCollider:
+--- !u!65 &1798111147
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7385,10 +7951,21 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
+--- !u!4 &1803540109 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
+    type: 3}
+  m_PrefabInstance: {fileID: 1446568006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1831502059 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 317268039510885002, guid: 21caaac6ca592ae40a33bb94ebbbde24,
+    type: 3}
+  m_PrefabInstance: {fileID: 1762831915}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1838279060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7399,6 +7976,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7470,8 +8051,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1838279060}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1838279063
-MeshCollider:
+--- !u!65 &1838279063
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7480,18 +8061,17 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1 &1839287688 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589,
     type: 3}
   m_PrefabInstance: {fileID: 610793639}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1839287691
-MeshCollider:
+--- !u!65 &1839287691
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7500,16 +8080,15 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000043, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920933, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &1839444315
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1504299957}
     m_Modifications:
     - target: {fileID: 2386871685786083569, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -7524,7 +8103,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.067957
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -7554,7 +8133,7 @@ PrefabInstance:
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2386871685786083582, guid: 2337373a981884c47b52d825563e7bbe,
         type: 3}
@@ -7573,12 +8152,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2337373a981884c47b52d825563e7bbe, type: 3}
+--- !u!1 &1846366853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1846366854}
+  m_Layer: 0
+  m_Name: Doors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1846366854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846366853}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1071785656}
+  - {fileID: 730937762}
+  - {fileID: 1605469237}
+  m_Father: {fileID: 1573589340}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1871185736
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1547485646}
     m_Modifications:
     - target: {fileID: 4332586439546169513, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -7588,32 +8200,32 @@ PrefabInstance:
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 293.67398
+      value: 73.073975
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.500916
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 273.7
+      value: 59.80002
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -7623,7 +8235,7 @@ PrefabInstance:
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4332586439546169557, guid: b22191d4c6117e74697a4382705abe43,
         type: 3}
@@ -7653,8 +8265,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 977500963}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1881762698
-MeshCollider:
+--- !u!65 &1881762698
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7663,10 +8275,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000029, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920928, y: 0.50022626, z: -0.0006736219}
 --- !u!1001 &1887820648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7677,6 +8288,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7748,8 +8363,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1887820648}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1887820651
-MeshCollider:
+--- !u!65 &1887820651
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7758,10 +8373,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1 &1922413448 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589,
@@ -7774,8 +8388,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2032822789}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1922413450
-MeshCollider:
+--- !u!65 &1922413450
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7784,10 +8398,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000043, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920933, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &1932046232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7798,6 +8411,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7869,8 +8486,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1932046232}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1932046235
-MeshCollider:
+--- !u!65 &1932046235
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7879,10 +8496,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &1937212157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7893,6 +8509,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7964,8 +8584,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1937212157}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1937212160
-MeshCollider:
+--- !u!65 &1937212160
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7974,10 +8594,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &1960321727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7988,6 +8607,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8059,8 +8682,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1960321727}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1960321730
-MeshCollider:
+--- !u!65 &1960321730
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8069,10 +8692,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &1988699056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8083,6 +8705,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8154,8 +8780,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1988699056}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1988699059
-MeshCollider:
+--- !u!65 &1988699059
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8164,10 +8790,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1001 &1989867550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8178,6 +8803,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8249,8 +8878,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1989867550}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1989867553
-MeshCollider:
+--- !u!65 &1989867553
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8259,10 +8888,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.0000038, y: 0.9993511, z: 0.388797}
+  m_Center: {x: 0.00000011920932, y: 0.50022626, z: -0.00067362207}
 --- !u!1 &2000984584
 GameObject:
   m_ObjectHideFlags: 0
@@ -8331,12 +8959,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000984584}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2003705170
 PrefabInstance:
@@ -8348,6 +8976,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8418,7 +9050,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 288432782}
     m_Modifications:
     - target: {fileID: 2452974514365492103, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -8433,7 +9065,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.000916
+      value: 1.96
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -8443,7 +9075,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -8453,7 +9085,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -8463,7 +9095,7 @@ PrefabInstance:
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2452974514365492104, guid: c72fd2176aaad9343a3bdf2ca01e3a04,
         type: 3}
@@ -8492,6 +9124,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8551,6 +9187,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+--- !u!4 &2099338786 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 858275673291662101, guid: c652d3882c9733c44b79acb0b4db4f87,
+    type: 3}
+  m_PrefabInstance: {fileID: 1386197870}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2107912957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8561,6 +9203,10 @@ PrefabInstance:
     - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_Name
       value: enchantedforest_wall_stone_half (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623567949357080, guid: 627795f3a95864210b0b4413ac098589, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4502519997668952, guid: 627795f3a95864210b0b4413ac098589, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8632,8 +9278,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2107912957}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &2107912960
-MeshCollider:
+--- !u!65 &2107912960
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8642,7 +9288,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5d8c07bd97114cb9ac3c59be96c02ee, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.000003, y: 0.9993511, z: 0.3887969}
+  m_Center: {x: 0.00000011920929, y: 0.50022626, z: -0.0006736219}
