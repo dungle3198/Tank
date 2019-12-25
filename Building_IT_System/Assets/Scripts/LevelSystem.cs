@@ -24,6 +24,8 @@ public class LevelSystem : MonoBehaviour
     [SerializeField]
     GameObject pauseScreen;
     [SerializeField]
+    Text goldtext;
+    [SerializeField]
     int coin; 
     // Start is called before the first frame update
     void Start()
@@ -108,6 +110,10 @@ public class LevelSystem : MonoBehaviour
                                         
                                     }
                                     GS.SetCoin(coin);
+                                }
+                                if(goldtext)
+                                {
+                                    goldtext.text = coin.ToString();
                                 }
 
                             }

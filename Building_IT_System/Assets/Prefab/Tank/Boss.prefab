@@ -410,6 +410,7 @@ MonoBehaviour:
   currentAmmo: 0
   maxAmmo: 10
   damage: 10
+  GS: {fileID: 0}
   shootclip: {fileID: 8300000, guid: 6b5d4709394c7f84f8a2236856dfb73c, type: 3}
   sound: {fileID: 0}
   fire: {fileID: 3005366574380940668}
@@ -497,8 +498,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.5, y: 0.9, z: 5.25}
-  m_Center: {x: 0, y: 0.5, z: 0}
+  m_Size: {x: 3.5, y: 1.5, z: 5.25}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!195 &5316225019506827344
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -543,6 +544,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 98da624c5159744dab3ff081607af703, type: 3}
   - {fileID: 8300000, guid: d3171dc5bdfa04f85808b025bf843e1a, type: 3}
   - {fileID: 8300000, guid: 0a2531779fd6f3d4fbe8d28befb7f3e6, type: 3}
+  rB: {fileID: 0}
+  col: {fileID: 0}
+  model: {fileID: 0}
   player: {fileID: 0}
   distance: 0
   offSet: 4
@@ -551,6 +555,8 @@ MonoBehaviour:
   attackDistance: 15
   shootTime: 0
   interval: 1.5
+  goldPrefab: {fileID: 0}
+  coin: 1
   stage_status: 0
   wait_time: 0
   bossgun: {fileID: 0}
@@ -820,6 +826,7 @@ MonoBehaviour:
   currentAmmo: 0
   maxAmmo: 10000
   damage: 40
+  GS: {fileID: 0}
   shootclip: {fileID: 8300000, guid: 029a087855d4f43358b0507dd11c7472, type: 3}
   sound: {fileID: 0}
 --- !u!1 &7164955005276445291
@@ -950,6 +957,7 @@ MonoBehaviour:
   currentAmmo: 0
   maxAmmo: 10
   damage: 10
+  GS: {fileID: 0}
   shootclip: {fileID: 8300000, guid: 809c57c446741a14c9c757bd299a5b6d, type: 3}
   sound: {fileID: 5562674437153390494}
 --- !u!82 &5562674437153390494
@@ -1607,6 +1615,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 2300028, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73272750ef076ac42bcaca7526311d70, type: 2}
     - target: {fileID: 2300034, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1615,10 +1627,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f2699a43f2eee974586c95a7d6e0625d, type: 2}
-    - target: {fileID: 2300028, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73272750ef076ac42bcaca7526311d70, type: 2}
     - target: {fileID: 2300000, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
