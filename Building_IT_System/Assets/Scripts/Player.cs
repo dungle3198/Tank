@@ -44,6 +44,7 @@ public class Player : Tank
                 float newMaxHealth = health.getMaxHealth() + GS.m_Health * 25;
                 health.setMaxHealth(newMaxHealth);
             }
+            transform.position = GS.spawning(this.transform.position);
         }
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
@@ -106,7 +107,7 @@ public class Player : Tank
     {
         if (gun)
         {
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Fire1"))
             {
                 gun.Shoot();
                
@@ -159,7 +160,6 @@ public class Player : Tank
                 }
                 if (LS)
                 {
-                    print("hello");
                     LS.Result(true);
                 }
                 this.GetComponent<Player>().enabled = false;
