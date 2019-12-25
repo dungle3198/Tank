@@ -45,6 +45,7 @@ public class Player : Tank
                 health.setMaxHealth(newMaxHealth);
             }
         }
+        Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
 

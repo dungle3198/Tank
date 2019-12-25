@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.37198257, g: 1, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1294,7 +1294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.37198257, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.37198257, g: 1, b: 0, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1423,7 +1423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3984514, g: 0.6981132, b: 0.51351875, a: 1}
+  m_Color: {r: 0.3984514, g: 0.6981132, b: 0.51351875, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1552,7 +1552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3984514, g: 0.6981132, b: 0.51351875, a: 1}
+  m_Color: {r: 0.3984514, g: 0.6981132, b: 0.51351875, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1827,7 +1827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.37198257, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.37198257, g: 1, b: 0, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1963,11 +1963,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1064875514846504646, guid: c6ca73508bef843498ece1bf315b7e05,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2129602443733291481, guid: c6ca73508bef843498ece1bf315b7e05,
         type: 3}
       propertyPath: m_RootOrder
@@ -1994,6 +1989,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1953375662701636457, guid: c6ca73508bef843498ece1bf315b7e05,
         type: 3}
+      propertyPath: m_Mass
+      value: 0.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953375662701636457, guid: c6ca73508bef843498ece1bf315b7e05,
+        type: 3}
       propertyPath: m_Drag
       value: 1
       objectReference: {fileID: 0}
@@ -2002,20 +2002,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 116
       objectReference: {fileID: 0}
-    - target: {fileID: 1953375662701636457, guid: c6ca73508bef843498ece1bf315b7e05,
-        type: 3}
-      propertyPath: m_Mass
-      value: 0.0000001
-      objectReference: {fileID: 0}
     - target: {fileID: 1953375662701636471, guid: c6ca73508bef843498ece1bf315b7e05,
         type: 3}
       propertyPath: speed
       value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1953375662701636471, guid: c6ca73508bef843498ece1bf315b7e05,
-        type: 3}
-      propertyPath: rotateSpeed
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5577777865914544414, guid: c6ca73508bef843498ece1bf315b7e05,
         type: 3}

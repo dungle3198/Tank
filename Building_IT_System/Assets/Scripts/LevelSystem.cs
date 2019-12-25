@@ -77,6 +77,7 @@ public class LevelSystem : MonoBehaviour
     }
     public void Result(bool on)
     {
+
        if(pauseScreen)
         {
             if(pauseScreen.active ==false )
@@ -133,6 +134,7 @@ public class LevelSystem : MonoBehaviour
                             }
                         }
                     }
+                    Cursor.visible = true;
                 }
                 else
                 {
@@ -141,6 +143,7 @@ public class LevelSystem : MonoBehaviour
                         ResultBoard.SetActive(false);
                         Time.timeScale = 1;
                     }
+                    Cursor.visible = false;
                 }
             }
         }
@@ -184,12 +187,14 @@ public class LevelSystem : MonoBehaviour
                             pauseScreen.SetActive(true);
                             Time.timeScale = 0;
                             Cursor.lockState = CursorLockMode.None;
+                            Cursor.visible = true;
                         }
                         else
                         {
                             pauseScreen.SetActive(false);
                             Time.timeScale = 1;
                             Cursor.lockState = CursorLockMode.Locked;
+                            Cursor.visible = false;
                         }
                     }
                 }
