@@ -61,6 +61,16 @@ public class Bullet : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.GetComponent<Tank>())
+        {
+            Tank tank = collision.gameObject.GetComponent<Tank>();
+            tank.applyDamge(damage, this.currentTeam);
+        }
+        if (collision.gameObject.GetComponent<Box>())
+        {
+            Box box = collision.gameObject.GetComponent<Box>();
+            box.exploded();
+        }
         explode();
     }
     public void explode()
