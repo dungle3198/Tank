@@ -8,7 +8,8 @@ public class HUD : MonoBehaviour
     [SerializeField] private Text ammoText;
     [SerializeField] Image Healthbar;
     [SerializeField] Image Ammobar;
-
+    [SerializeField] Image ReloadBar;
+    [SerializeField] List<GameObject>listofAmmo;
     Player player;
     private void Start()
     {
@@ -28,7 +29,8 @@ public class HUD : MonoBehaviour
     private void Update()
     {
         if (player)
-        {
+        { 
+            /*
             if (ammoText)
             {
                 if (player.getGun())
@@ -42,14 +44,69 @@ public class HUD : MonoBehaviour
                         ammoText.text = "Reloading";
                     }
                 }
-            }
+            }*/
             if (Ammobar)
             {
                 if (player.getGun())
                 {
-                    Ammobar.fillAmount = player.getGun().getAmmoPercentage();
+                    if (player.getGun().getcurrentAmmo() > 0)
+                    {
+                        //Ammobar.fillAmount = player.getGun().getAmmoPercentage();
+                        for (int i = 0; i < listofAmmo.Count - 1; i++)
+                        {
+                            if (i <= player.getGun().getcurrentAmmo())
+                            {
+                                if (i > 0)
+                                {
+                                    if(listofAmmo[i])
+                                    {
+                                        if(listofAmmo[i].activeSelf == false)
+                                        {
+                                            listofAmmo[i].SetActive(true);
+                                        }
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                if (listofAmmo[i])
+                                {
+                                    if (listofAmmo[i].activeSelf == true)
+                                    {
+                                        listofAmmo[i].SetActive(false);
+                                    }
+                                }
+                            }
+                            if(player.getGun().getcurrentAmmo() == 0)
+                            {
+                                if (ReloadBar)
+                                {
+                                    ReloadBar.fillAmount = 0;
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        if (listofAmmo[1])
+                        {
+                            if (listofAmmo[1].activeSelf == true)
+                            {
+                                listofAmmo[1].SetActive(false);
+                                if (ReloadBar)
+                                {
+                                    ReloadBar.fillAmount = 0;
+                                }
+                            }
+                        }
+                        if(ReloadBar)
+                        {
+                            ReloadBar.fillAmount += Time.deltaTime * 1 / 3;
+                        }
+                    }
                 }
             }
+           
             if (healthText)
             {
                 if (player.GetHealth())
@@ -64,11 +121,11 @@ public class HUD : MonoBehaviour
                     Healthbar.fillAmount = player.GetHealth().getHealthPercentage();
                 }
             }
+            
         }
     }
     public void ammoChange(float ammo_value)
     {
-
         if (ammoText)
         {
             if (ammo_value == 0)

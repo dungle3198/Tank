@@ -12,7 +12,7 @@ public class Gun : MonoBehaviour
     [SerializeField]
     protected int currentAmmo;
     [SerializeField]
-    protected int maxAmmo = 10;
+    protected int maxAmmo = 12;
     [SerializeField]
     protected float damage = 10;
     [SerializeField]
@@ -35,7 +35,7 @@ public class Gun : MonoBehaviour
             GS = FindObjectOfType<GameSystem>();
             if(currentTeam == Tank.Team.player)
             {
-                maxAmmo += maxAmmo * GS.m_Ammo;
+                maxAmmo += 2 * GS.m_Ammo;
             }
         }
         currentAmmo = maxAmmo;
