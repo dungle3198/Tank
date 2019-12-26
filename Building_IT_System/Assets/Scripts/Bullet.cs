@@ -56,6 +56,11 @@ public class Bullet : MonoBehaviour
             }
             explode();
         }
+        
+        explode();
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
         explode();
     }
     public void explode()

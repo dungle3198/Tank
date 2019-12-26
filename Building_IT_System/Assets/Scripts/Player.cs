@@ -46,6 +46,7 @@ public class Player : Tank
             }
             transform.position = GS.spawning(this.transform.position);
         }
+        
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }

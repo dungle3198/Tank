@@ -155,11 +155,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 20
-  currentTeam: 0
+  default_damage: 0
+  currentTeam: 1
   fX: {fileID: 1557180842046014684}
   mesh: {fileID: 7881488378297545033}
   sound: {fileID: 0}
   explosive_clip: {fileID: 8300000, guid: 16a51aaac20758a4880333809a6d9fd8, type: 3}
+  GS: {fileID: 0}
 --- !u!65 &7223546943740343331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -168,7 +170,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7881488378297545035}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1.0000001, z: 1.0000001}

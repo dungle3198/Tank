@@ -26,9 +26,11 @@ public class CameraScript : MonoBehaviour
         if (FindObjectOfType<Player>())
         {
             player = FindObjectOfType<Player>();
+            CamRotator.transform.position = player.transform.position;
+            CamRotator.rotation = Quaternion.Slerp(CamRotator.rotation, player.transform.rotation, 1);
         }
-        Vector3 OffsetPos = new Vector3(transform.position.x + xOffset, transform.position.y + yOffset, transform.position.z + zOffset);
-        transform.position = OffsetPos;
+        Vector3 OffsetPos = new Vector3(0 + xOffset, 0+ yOffset, 0 + zOffset);
+        transform.localPosition = OffsetPos;
     }
 
     // Update is called once per frame
@@ -46,8 +48,11 @@ public class CameraScript : MonoBehaviour
                 CamRotator.position = player.transform.position;
                 if (Time.timeScale != 0)
                 {
-                    //CamRotator.transform.Rotate(0, Input.GetAxis("Mouse X"), 0);
                     CamRotator.transform.Rotate(player.getRotateVector());
+                    //transform.LookAt(CamRotator);
+                   
+                    CamRotator.transform.position = player.transform.position;
+                    
                 }
             }
 
