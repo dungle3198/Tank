@@ -131,6 +131,7 @@ public class Tank : MonoBehaviour
         {
             gun = GetComponentInChildren<Gun>();
             gun.increaseMaxAmmo(numAmmo);
+            gun.addCurrentAmmo(numAmmo);
         }
     }
     public Gun getGun()

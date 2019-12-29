@@ -31,7 +31,14 @@ public class RocketGun : Gun
         {
             originalPos = Landmark.localPosition;
         }
-
+        if (FindObjectOfType<GameSystem>())
+        {
+            GS = FindObjectOfType<GameSystem>();
+            if (currentTeam == Tank.Team.player)
+            {
+                maxAmmo += 2 * GS.m_Ammo;
+            }
+        }
     }
     public override void Shoot()
     {

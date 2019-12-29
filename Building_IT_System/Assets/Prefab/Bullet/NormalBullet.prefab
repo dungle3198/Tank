@@ -154,12 +154,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b1fec0f155231e48b373ad7b38ea38c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 5
+  default_damage: 0
   currentTeam: 0
   fX: {fileID: 1557180842046014684}
   mesh: {fileID: 7881488378297545033}
   sound: {fileID: 0}
   explosive_clip: {fileID: 8300000, guid: 16a51aaac20758a4880333809a6d9fd8, type: 3}
+  GS: {fileID: 0}
 --- !u!65 &7223546943740343331
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -16,7 +16,7 @@ public class Gun : MonoBehaviour
     [SerializeField]
     protected float damage = 10;
     [SerializeField]
-    private GameSystem GS;
+    protected GameSystem GS;
 
     [SerializeField]
     protected AudioClip shootclip;
@@ -35,7 +35,7 @@ public class Gun : MonoBehaviour
             GS = FindObjectOfType<GameSystem>();
             if(currentTeam == Tank.Team.player)
             {
-                maxAmmo += 2 * GS.m_Ammo;
+                maxAmmo += 5 * GS.m_Ammo;
             }
         }
         currentAmmo = maxAmmo;
@@ -93,6 +93,10 @@ public class Gun : MonoBehaviour
     public virtual void increaseDamage(float amountDamage)
     {
         this.damage += amountDamage;
+    }
+    public virtual void addCurrentAmmo(int amount)
+    {
+        this.currentAmmo += amount;
     }
     public virtual void fastReload()
     {

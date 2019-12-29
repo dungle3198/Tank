@@ -11,6 +11,23 @@ public class SniperGun : Gun
     [SerializeField]
     protected Transform farScope;
     protected Vector3 hitScope;
+    void Start()
+    {
+
+        if (GetComponent<AudioSource>())
+        {
+            sound = GetComponent<AudioSource>();
+        }
+        if (FindObjectOfType<GameSystem>())
+        {
+            GS = FindObjectOfType<GameSystem>();
+            if (currentTeam == Tank.Team.player)
+            {
+                maxAmmo += 1 * GS.m_Ammo;
+            }
+        }
+        currentAmmo = maxAmmo;
+    }
     // Update is called once per frame
     void Update()
     {

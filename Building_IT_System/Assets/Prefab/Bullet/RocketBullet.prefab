@@ -76,12 +76,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77cc99e0a8193f46a75ac7b85f8fe32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 10
+  default_damage: 0
   currentTeam: 0
   fX: {fileID: 3296634477244062204}
   mesh: {fileID: 7984616929206999308}
   sound: {fileID: 0}
   explosive_clip: {fileID: 8300000, guid: 0a2531779fd6f3d4fbe8d28befb7f3e6, type: 3}
+  GS: {fileID: 0}
 --- !u!135 &6267190635006475883
 SphereCollider:
   m_ObjectHideFlags: 0

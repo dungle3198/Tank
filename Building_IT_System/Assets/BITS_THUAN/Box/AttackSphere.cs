@@ -31,7 +31,7 @@ public class AttackSphere : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<Tank>())
+        if (other.GetComponent<Player>())
         {
             Player player = other.GetComponent<Player>();
             player.increaseDamage(damage);

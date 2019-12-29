@@ -31,7 +31,7 @@ public class BulletSphere : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<Tank>())
+        if (other.GetComponent<Player>())
         {
             Player player = other.GetComponent<Player>();
             player.increaseMaxAmmo(10);
