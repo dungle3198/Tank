@@ -35,7 +35,15 @@ public class Gun : MonoBehaviour
             GS = FindObjectOfType<GameSystem>();
             if(currentTeam == Tank.Team.player)
             {
-                maxAmmo += 5 * GS.m_Ammo;
+               
+                if(this.gameObject.name =="SniperGun")
+                {
+                    maxAmmo += GS.m_Ammo*1;
+                }
+                if(this.gameObject.name == "normalGun")
+                {
+                    maxAmmo += 3 * GS.m_Ammo;
+                }
             }
         }
         currentAmmo = maxAmmo;
