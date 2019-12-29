@@ -3261,6 +3261,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1064875514846504646, guid: c6ca73508bef843498ece1bf315b7e05,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2129602443733291481, guid: c6ca73508bef843498ece1bf315b7e05,
         type: 3}
       propertyPath: m_RootOrder
@@ -3466,6 +3471,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 8ed59a3c53ddb6f4384dc60039bb5b63,
         type: 3}
+    - target: {fileID: 5289246738561042210, guid: c6ca73508bef843498ece1bf315b7e05,
+        type: 3}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 976471895148178356, guid: c6ca73508bef843498ece1bf315b7e05,
         type: 3}
       propertyPath: m_IsActive
@@ -3475,7 +3485,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8ed59a3c53ddb6f4384dc60039bb5b63,
+      objectReference: {fileID: 21300000, guid: be948f483911c7546b07a6acd2ee116c,
         type: 3}
     - target: {fileID: 8277311640974440831, guid: c6ca73508bef843498ece1bf315b7e05,
         type: 3}
