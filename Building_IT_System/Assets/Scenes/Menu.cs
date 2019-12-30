@@ -13,9 +13,17 @@ public class Menu : MonoBehaviour
     [SerializeField]
     Text UpgradeHealthText;
     [SerializeField]
+    Text HealthCost;
+    [SerializeField]
     Text UpgradeDamageText;
     [SerializeField]
+    Text DamageCost;
+    [SerializeField]
     Text UpgradeAmmoText;
+    [SerializeField]
+    Text AmmoCost;
+    [SerializeField]
+    Text GoldText;
     [SerializeField]
     GameObject menu;
     public Text LevelText; 
@@ -35,6 +43,16 @@ public class Menu : MonoBehaviour
             if (UpgradeAmmoText)
                 UpgradeAmmoText.text = GS.m_Ammo.ToString();
 
+            if (HealthCost)
+                HealthCost.text = GS.getCost(1).ToString();
+            if (DamageCost)
+                DamageCost.text = GS.getCost(2).ToString();
+            if (AmmoCost)
+                AmmoCost.text = GS.getCost(3).ToString();
+            if(GoldText)
+            {
+                GoldText.text = GS.m_Gold.ToString();
+            }
         }
     }
     public void QuitGame()

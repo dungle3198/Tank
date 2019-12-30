@@ -16,6 +16,8 @@ public class GameSystem : MonoBehaviour
     public Vector3 respawnPos;
     public Menu menu;
     public bool Respawn = false;
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -32,10 +34,26 @@ public class GameSystem : MonoBehaviour
             menu = GetComponent<Menu>();
         }
     }
+    private void Update()
+    {
+        if(Input.GetKeyUp(KeyCode.R))
+        {
+            PlayerPrefs.SetInt("maxhealth", 0);
+            PlayerPrefs.SetInt("maxdamage", 0);
+            PlayerPrefs.SetInt("maxammo", 0);
+            m_Health = PlayerPrefs.GetInt("maxhealth", 0);
+            m_Damage = PlayerPrefs.GetInt("maxdamage", 0);
+            m_Ammo = PlayerPrefs.GetInt("maxammo", 0);
+        }
+    }
     public void loadLevel()
     {
         string scene_name = levels[currentLevelIndex];
         SceneManager.LoadScene(scene_name, LoadSceneMode.Additive);
+        if(menu)
+        {
+            menu.enabled = false;
+        }
         //SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene_name));
     }
     public void LoadNextLevel()
@@ -69,27 +87,52 @@ public class GameSystem : MonoBehaviour
     }
     public void IncreaseHealthLevel()
     {
-        m_Health += 1;
-        m_Health = Mathf.Clamp(m_Health, 0, 4);
-        PlayerPrefs.SetInt("maxhealth", m_Health);
+        int r_gold = (m_Health + 1) * 5;
+
+        if(m_Gold >= r_gold)
+        {
+            m_Health += 1;
+            m_Health = Mathf.Clamp(m_Health, 0, 4);
+            PlayerPrefs.SetInt("maxhealth", m_Health);
+            m_Gold -= r_gold;
+            SetCoin(m_Gold);
+        }
+       
     }
     public void IncreaseDammageLevel()
     {
-        m_Damage += 1;
-        m_Damage = Mathf.Clamp(m_Damage, 0, 4);
-        PlayerPrefs.SetInt("maxdamage", m_Damage);
+        int r_gold = (m_Damage + 1) * 5;
+
+        if (m_Gold >= r_gold)
+        {
+            m_Damage += 1;
+            m_Damage = Mathf.Clamp(m_Damage, 0, 4);
+            PlayerPrefs.SetInt("maxdamage", m_Damage);
+            m_Gold -= r_gold;
+            SetCoin(m_Gold);
+        }
+       
     }
     public void IncreaseAmmoLevel()
     {
-        m_Ammo += 1;
-        m_Ammo = Mathf.Clamp(m_Ammo, 0, 4);
-        PlayerPrefs.SetInt("maxammo", m_Ammo);
+        int r_gold = (m_Ammo + 1) * 5;
+
+        if (m_Gold >= r_gold)
+        {
+            m_Ammo += 1;
+            m_Ammo = Mathf.Clamp(m_Ammo, 0, 4);
+            PlayerPrefs.SetInt("maxammo", m_Ammo);
+            m_Gold -= r_gold;
+            SetCoin(m_Gold);
+        }
+       
     }
     public void BackfromGame()
     {
         SceneManager.UnloadSceneAsync(levels[currentLevelIndex]);
         if (menu)
         {
+            menu.enabled = true;
             menu.BackButtonFromGame();
         }
         Respawn = false;
@@ -120,5 +163,21 @@ public class GameSystem : MonoBehaviour
         {
             return pos; 
         }
+    }
+    public int getCost(int type)
+    {
+        if (type == 1)
+        {
+            return (m_Health + 1) * 5;
+        }
+        if (type == 2)
+        {
+            return (m_Damage + 1) * 5;
+        }
+        if (type == 3)
+        {
+            return (m_Ammo + 1) * 5;
+        }
+        return 0;
     }
 }
