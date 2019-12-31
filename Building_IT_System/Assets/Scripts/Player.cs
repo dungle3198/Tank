@@ -54,15 +54,19 @@ public class Player : Tank
     // Update is called once per frame
     void Update()
     {
-        movement();
-        gunFunction();
-        switchGun();
+        if(Time.timeScale != 0)
+        {
+            movement();
+            gunFunction();
+            switchGun();
+        }
+       
     }
     void movement()
     {
         if (rB)
         {
-            float x = Input.GetAxis("Horizontal");
+            float x = Input.GetAxis("Horizontal") + Input.GetAxis("Mouse X");
             float z = Input.GetAxis("Vertical");
             float yvel = rB.velocity.y;
             float xvel = rB.velocity.x;
