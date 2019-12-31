@@ -323,7 +323,7 @@ MonoBehaviour:
   offSet: 3
   agent: {fileID: 0}
   chasingDistance: 50
-  attackDistance: 40
+  attackDistance: 30
   shootTime: 0
   interval: 1.5
   goldPrefab: {fileID: 8735499789106552023, guid: 861d47dadf80ec148a31eaf0b1ac62a8,
@@ -394,7 +394,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -402,9 +402,9 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0.48
   MinDistance: 1
-  MaxDistance: 30
+  MaxDistance: 25
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -612,7 +612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2294669012356353622
 Transform:
   m_ObjectHideFlags: 0
@@ -670,7 +670,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 35
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -972,6 +972,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1725225962}
     m_Modifications:
+    - target: {fileID: 100040, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
+      propertyPath: m_Name
+      value: model
+      objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1028,10 +1032,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.16862999
       objectReference: {fileID: 0}
-    - target: {fileID: 100040, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
-      propertyPath: m_Name
-      value: model
-      objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
@@ -1052,18 +1052,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 2300028, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73272750ef076ac42bcaca7526311d70, type: 2}
-    - target: {fileID: 2300034, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f2699a43f2eee974586c95a7d6e0625d, type: 2}
     - target: {fileID: 2300036, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f2699a43f2eee974586c95a7d6e0625d, type: 2}
+    - target: {fileID: 2300034, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f2699a43f2eee974586c95a7d6e0625d, type: 2}
+    - target: {fileID: 2300028, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73272750ef076ac42bcaca7526311d70, type: 2}
     - target: {fileID: 2300000, guid: cbac5c40bbb3a7b4d9c54abfbe7e3e9b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
