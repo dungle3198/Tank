@@ -54,32 +54,39 @@ public class Enemy :AI
                 
             }
         }
-        if (agent.velocity.x != 0 || agent.velocity.z != 0)
-        {
-            if (tankSound)
-            {
-                if (!tankSound.isPlaying)
-                {
-                    tankSound.clip = soundclip[0];
-                    tankSound.loop = true;
-                    tankSound.volume = 0.5f;
-                    tankSound.Play();
+        playSound();
 
+    }
+    public virtual void playSound()
+    {
+        if(agent)
+        {
+            if (agent.velocity.x != 0 || agent.velocity.z != 0)
+            {
+                if (tankSound)
+                {
+                    if (!tankSound.isPlaying)
+                    {
+                        tankSound.clip = soundclip[0];
+                        tankSound.loop = true;
+                        tankSound.volume = 0.5f;
+                        tankSound.Play();
+
+                    }
+                }
+            }
+            else
+            {
+                if (tankSound)
+                {
+                    if (tankSound.isPlaying)
+                    {
+                        tankSound.Stop();
+                        tankSound.loop = false;
+                    }
                 }
             }
         }
-        else
-        {
-            if (tankSound)
-            {
-                if (tankSound.isPlaying)
-                {
-                    tankSound.Stop();
-                    tankSound.loop = false;
-                }
-            }
-        }
-
     }
     public override void death()
     {
